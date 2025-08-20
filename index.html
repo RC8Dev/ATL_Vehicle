@@ -498,22 +498,45 @@
                         console.log(`Tentativo di caricamento immagine per: ${vehicleName}`);
                         
                         // Prima prova con il mapping esplicito se disponibile
-                        if (window.imageMapping && window.imageMapping[vehicleName]) {
-                            const mappedImage = window.imageMapping[vehicleName];
-                            console.log(`Usando mapping esplicito: ${mappedImage}`);
-                            img.src = `image/${mappedImage}`;
+                        if (window.imageMapping) {
+                            // Prova con il nome esatto
+                            if (window.imageMapping[vehicleName]) {
+                                const mappedImage = window.imageMapping[vehicleName];
+                                console.log(`Usando mapping esplicito: ${mappedImage}`);
+                                img.src = `image/${mappedImage}`;
+                                
+                                img.onload = function() {
+                                    console.log(`Immagine caricata con successo: ${mappedImage}`);
+                                    this.classList.add('loaded');
+                                };
+                                
+                                img.onerror = function() {
+                                    console.log(`Errore nel caricamento del mapping: ${mappedImage}`);
+                                    tryAlternativeFormats();
+                                };
+                                
+                                return img;
+                            }
                             
-                            img.onload = function() {
-                                console.log(`Immagine caricata con successo: ${mappedImage}`);
-                                this.classList.add('loaded');
-                            };
-                            
-                            img.onerror = function() {
-                                console.log(`Errore nel caricamento del mapping: ${mappedImage}`);
-                                tryAlternativeFormats();
-                            };
-                            
-                            return img;
+                            // Prova con versione lowercase
+                            const lowerName = vehicleName.toLowerCase();
+                            if (window.imageMapping[lowerName]) {
+                                const mappedImage = window.imageMapping[lowerName];
+                                console.log(`Usando mapping lowercase: ${mappedImage}`);
+                                img.src = `image/${mappedImage}`;
+                                
+                                img.onload = function() {
+                                    console.log(`Immagine caricata con successo: ${mappedImage}`);
+                                    this.classList.add('loaded');
+                                };
+                                
+                                img.onerror = function() {
+                                    console.log(`Errore nel caricamento del mapping lowercase: ${mappedImage}`);
+                                    tryAlternativeFormats();
+                                };
+                                
+                                return img;
+                            }
                         }
                         
                         // Prova diversi formati di immagine

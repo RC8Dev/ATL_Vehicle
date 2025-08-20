@@ -16,6 +16,7 @@ window.imageMapping = {
     "q8prior": "q8prior.jpg",
     "r820": "r820.jpg",
     "m4cc": "m4cc.jpg",
+    "M4CC": "m4cc.jpg",
     
     // Aggiungi qui altri mapping specifici se necessario
     
