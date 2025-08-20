@@ -101,6 +101,18 @@
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .brand-header {
@@ -132,6 +144,7 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
             border: 2px solid transparent;
+            animation: fadeInUp 0.6s ease-out;
         }
 
         .vehicle-card:hover {
@@ -291,6 +304,40 @@
             border-color: #667eea;
         }
 
+        .search-info {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .results-count {
+            color: #666;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .search-loading {
+            position: relative;
+        }
+
+        .search-loading::after {
+            content: '';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            border: 2px solid #667eea;
+            border-top: 2px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: translateY(-50%) rotate(0deg); }
+            100% { transform: translateY(-50%) rotate(360deg); }
+        }
+
         .filter-buttons {
             display: flex;
             gap: 10px;
@@ -369,7 +416,7 @@
     <div class="container">
         <div class="header">
             <h1>🚗 Catalogo Veicoli Atlantide 2.0 🚗</h1>
-            <p>Stream Directory - Collezione Completa</p>
+            <p>Collezione Completa dei nostri veicoli!</p>
         </div>
 
         <div class="stats">
@@ -401,6 +448,9 @@
 
         <div class="search-container">
             <input type="text" class="search-box" placeholder="🔍 Cerca veicoli..." id="searchBox">
+            <div class="search-info">
+                <span id="resultsCount" class="results-count">Trovati: 0 veicoli</span>
+            </div>
             <div class="filter-buttons">
                 <button class="filter-btn active" data-category="all">Tutti</button>
                 <button class="filter-btn" data-category="car">Auto</button>
@@ -430,10 +480,29 @@
     <script>
         // Global variable to store vehicles data
         let vehicles = [];
+        let isLoading = false;
+        let searchTimeout = null;
+        let lastSearchTerm = '';
+        let lastBrandFilter = 'all';
+        let lastCategoryFilter = 'all';
+
+        // Performance optimization: Debounce function
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
 
         // Function to load vehicles data from JSON file
         async function loadVehiclesData() {
             try {
+                isLoading = true;
                 const response = await fetch('vehicles.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
@@ -444,6 +513,7 @@
                 // Initialize the page after loading data
                 populateBrandSelect();
                 renderVehicles();
+                isLoading = false;
             } catch (error) {
                 console.error('Error loading vehicles data from JSON file:', error);
                 // Fallback: try to load from embedded data
@@ -484,9 +554,20 @@
             });
         }
 
-        // Function to render vehicles
+        // Function to render vehicles with improved performance
         function renderVehicles(filteredVehicles = vehicles) {
             const container = document.getElementById('brandsContainer');
+            const resultsCount = document.getElementById('resultsCount');
+            
+            // Update results count
+            resultsCount.textContent = `Trovati: ${filteredVehicles.length} veicoli`;
+            
+            if (filteredVehicles.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 50px; color: #666; font-size: 1.2rem;">🔍 Nessun veicolo trovato con i filtri selezionati.</div>';
+                return;
+            }
+
+            // Clear container efficiently
             container.innerHTML = '';
 
             // Group vehicles by brand
@@ -498,10 +579,11 @@
                 brands[vehicle.brand].push(vehicle);
             });
 
-            // Render each brand
-            Object.keys(brands).sort().forEach(brand => {
+            // Render each brand with staggered animation
+            Object.keys(brands).sort().forEach((brand, brandIndex) => {
                 const brandSection = document.createElement('div');
                 brandSection.className = 'brand-section';
+                brandSection.style.animationDelay = `${brandIndex * 0.1}s`;
                 
                 const brandHeader = document.createElement('div');
                 brandHeader.className = 'brand-header';
@@ -513,9 +595,10 @@
                 const vehiclesGrid = document.createElement('div');
                 vehiclesGrid.className = 'vehicles-grid';
                 
-                brands[brand].forEach(vehicle => {
+                brands[brand].forEach((vehicle, vehicleIndex) => {
                     const vehicleCard = document.createElement('div');
                     vehicleCard.className = 'vehicle-card';
+                    vehicleCard.style.animationDelay = `${(brandIndex * 0.1) + (vehicleIndex * 0.05)}s`;
                     
                     // Funzione per creare l'elemento immagine con caricamento automatico
                     const createImageElement = async (vehicleName) => {
@@ -674,15 +757,29 @@
             return categories[category] || category;
         }
 
-        // Function to apply all filters
+        // Optimized filter function with caching
         function applyFilters() {
+            if (isLoading) return; // Don't filter while loading
+            
             const searchTerm = document.getElementById('searchBox').value.toLowerCase();
             const selectedBrand = document.getElementById('brandSelect').value;
             const activeCategory = document.querySelector('.filter-btn.active').dataset.category;
             
+            // Check if filters have changed
+            if (searchTerm === lastSearchTerm && 
+                selectedBrand === lastBrandFilter && 
+                activeCategory === lastCategoryFilter) {
+                return; // No changes, skip filtering
+            }
+            
+            // Update last values
+            lastSearchTerm = searchTerm;
+            lastBrandFilter = selectedBrand;
+            lastCategoryFilter = activeCategory;
+            
             let filteredVehicles = vehicles;
             
-            // Apply search filter
+            // Apply search filter with improved performance
             if (searchTerm) {
                 filteredVehicles = filteredVehicles.filter(vehicle => 
                     vehicle.name.toLowerCase().includes(searchTerm) ||
@@ -704,20 +801,37 @@
             renderVehicles(filteredVehicles);
         }
 
-        // Search functionality
-        document.getElementById('searchBox').addEventListener('input', applyFilters);
+        // Function to show/hide search loading indicator
+        function toggleSearchLoading(show) {
+            const searchBox = document.getElementById('searchBox');
+            if (show) {
+                searchBox.classList.add('search-loading');
+            } else {
+                searchBox.classList.remove('search-loading');
+            }
+        }
 
-        // Filter functionality
+        // Debounced filter function for smooth search
+        const debouncedApplyFilters = debounce((searchTerm) => {
+            toggleSearchLoading(true);
+            applyFilters();
+            setTimeout(() => toggleSearchLoading(false), 100);
+        }, 150);
+
+        // Search functionality with debouncing for smooth experience
+        document.getElementById('searchBox').addEventListener('input', debouncedApplyFilters);
+
+        // Filter functionality with improved performance
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', function() {
                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
-                applyFilters();
+                applyFilters(); // Immediate for button clicks
             });
         });
 
         // Brand select functionality
-        document.getElementById('brandSelect').addEventListener('change', applyFilters);
+        document.getElementById('brandSelect').addEventListener('change', applyFilters); // Immediate for select changes
 
         // Function to copy vehicle name to clipboard
         function copyVehicleName(vehicleName) {
@@ -797,7 +911,11 @@
                 console.log('image-config.js caricato correttamente');
             }
             
-            loadVehiclesData();
+            // Initialize with loading state
+            toggleSearchLoading(true);
+            loadVehiclesData().then(() => {
+                toggleSearchLoading(false);
+            });
         });
     </script>
 </body>
