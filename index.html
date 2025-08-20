@@ -160,11 +160,18 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            display: none;
+            display: block;
+            transition: opacity 0.3s ease, filter 0.3s ease;
+        }
+
+        .vehicle-image img.loading {
+            opacity: 0.7;
+            filter: blur(2px);
         }
 
         .vehicle-image img.loaded {
-            display: block;
+            opacity: 1;
+            filter: none;
         }
 
         .vehicle-image .fallback-emoji {
@@ -489,196 +496,87 @@
                     const vehicleCard = document.createElement('div');
                     vehicleCard.className = 'vehicle-card';
                     
-                    // Funzione per provare diversi formati di immagine
-                    const createImageElement = (vehicleName) => {
+                    // Funzione per creare l'elemento immagine con caricamento automatico
+                    const createImageElement = async (vehicleName) => {
                         const img = document.createElement('img');
                         img.alt = vehicle.description;
                         
-                        // Debug: log per vedere cosa sta succedendo
-                        console.log(`Tentativo di caricamento immagine per: ${vehicleName}`);
+                        // Mostra immediatamente un placeholder mentre carica
+                        img.style.display = 'block';
+                        img.style.opacity = '0.7';
+                        img.style.filter = 'blur(2px)';
                         
-                        // Prima prova con il mapping esplicito se disponibile
-                        if (window.imageMapping) {
-                            // Prova con il nome esatto
-                            if (window.imageMapping[vehicleName]) {
-                                const mappedImage = window.imageMapping[vehicleName];
-                                console.log(`Usando mapping esplicito: ${mappedImage}`);
-                                img.src = `image/${mappedImage}`;
-                                
-                                img.onload = function() {
-                                    console.log(`Immagine caricata con successo: ${mappedImage}`);
-                                    this.classList.add('loaded');
-                                };
-                                
-                                img.onerror = function() {
-                                    console.log(`Errore nel caricamento del mapping: ${mappedImage}`);
-                                    tryAlternativeFormats();
-                                };
-                                
-                                return img;
-                            }
+                        // Crea un placeholder immediato
+                        const placeholderCanvas = document.createElement('canvas');
+                        placeholderCanvas.width = 400;
+                        placeholderCanvas.height = 300;
+                        const ctx = placeholderCanvas.getContext('2d');
+                        
+                        // Sfondo gradiente per placeholder
+                        const gradient = ctx.createLinearGradient(0, 0, 400, 300);
+                        gradient.addColorStop(0, '#667eea');
+                        gradient.addColorStop(1, '#764ba2');
+                        ctx.fillStyle = gradient;
+                        ctx.fillRect(0, 0, 400, 300);
+                        
+                        // Testo del veicolo
+                        ctx.fillStyle = 'white';
+                        ctx.font = 'bold 20px Arial';
+                        ctx.textAlign = 'center';
+                        ctx.fillText(vehicleName, 200, 120);
+                        
+                        // Brand
+                        ctx.font = '16px Arial';
+                        ctx.fillText(vehicle.brand, 200, 150);
+                        
+                        // Emoji
+                        ctx.font = '40px Arial';
+                        ctx.fillText(vehicle.emoji, 200, 220);
+                        
+                        // Bordo
+                        ctx.strokeStyle = 'white';
+                        ctx.lineWidth = 3;
+                        ctx.strokeRect(10, 10, 380, 280);
+                        
+                        // Mostra il placeholder immediatamente
+                        const placeholderDataUrl = placeholderCanvas.toDataURL('image/jpeg', 0.8);
+                        img.src = placeholderDataUrl;
+                        img.classList.add('loading');
+                        
+                        try {
+                            // Carica l'immagine reale in background
+                            const imagePath = await window.loadBestImage(vehicleName, vehicle.brand);
                             
-                            // Prova con versione lowercase
-                            const lowerName = vehicleName.toLowerCase();
-                            if (window.imageMapping[lowerName]) {
-                                const mappedImage = window.imageMapping[lowerName];
-                                console.log(`Usando mapping lowercase: ${mappedImage}`);
-                                img.src = `image/${mappedImage}`;
-                                
-                                img.onload = function() {
-                                    console.log(`Immagine caricata con successo: ${mappedImage}`);
-                                    this.classList.add('loaded');
-                                };
-                                
-                                img.onerror = function() {
-                                    console.log(`Errore nel caricamento del mapping lowercase: ${mappedImage}`);
-                                    tryAlternativeFormats();
-                                };
-                                
-                                return img;
-                            }
-                        }
-                        
-                        // Prova diversi formati di immagine
-                        const formats = ['jpg', 'jpeg', 'png', 'webp'];
-                        let currentFormatIndex = 0;
-                        
-                        const tryAlternativeFormats = () => {
-                            if (currentFormatIndex < formats.length) {
-                                // Prova con il nome esatto del veicolo
-                                const imagePath = `image/${vehicleName}.${formats[currentFormatIndex]}`;
-                                console.log(`Tentativo formato ${formats[currentFormatIndex]}: ${imagePath}`);
+                            // Pre-carica l'immagine reale
+                            const realImg = new Image();
+                            realImg.onload = function() {
+                                // Sostituisci il placeholder con l'immagine reale
                                 img.src = imagePath;
-                                currentFormatIndex++;
-                            } else {
-                                // Prova con nomi alternativi (lowercase, senza spazi, ecc.)
-                                tryAlternativeNames();
-                            }
-                        };
-                        
-                        const tryAlternativeNames = () => {
-                            const alternativeNames = [
-                                vehicleName.toLowerCase(),
-                                vehicleName.replace(/\s+/g, ''),
-                                vehicleName.replace(/\s+/g, '_'),
-                                vehicleName.replace(/\s+/g, '-'),
-                                vehicleName.replace(/[^a-zA-Z0-9]/g, ''),
-                                vehicle.brand.toLowerCase() + '_' + vehicleName.toLowerCase()
-                            ];
-                            
-                            let altNameIndex = 0;
-                            let formatIndex = 0;
-                            
-                            const tryAltName = () => {
-                                if (altNameIndex < alternativeNames.length) {
-                                    if (formatIndex < formats.length) {
-                                        const altImagePath = `image/${alternativeNames[altNameIndex]}.${formats[formatIndex]}`;
-                                        console.log(`Tentativo nome alternativo: ${altImagePath}`);
-                                        img.src = altImagePath;
-                                        formatIndex++;
-                                    } else {
-                                        altNameIndex++;
-                                        formatIndex = 0;
-                                        tryAltName();
-                                    }
-                                } else {
-                                    // Nessuna immagine trovata, carica l'immagine NoImage
-                                    console.log(`Nessuna immagine trovata per ${vehicleName}, usando NoImage`);
-                                    loadNoImage();
+                                img.style.opacity = '1';
+                                img.style.filter = 'none';
+                                img.classList.remove('loading');
+                                img.classList.add('loaded');
+                                
+                                // Se è NoImage, aggiungi la classe per lo stile speciale
+                                if (imagePath.includes('NoImage')) {
+                                    img.classList.add('no-image');
                                 }
-                            };
-                            
-                            img.onerror = function() {
-                                tryAltName();
-                            };
-                            
-                            img.onload = function() {
-                                console.log(`Immagine caricata con nome alternativo`);
-                                this.classList.add('loaded');
-                            };
-                            
-                            tryAltName();
-                        };
-                        
-                        const loadNoImage = () => {
-                            const noImageFormats = ['jpg', 'jpeg', 'png', 'webp'];
-                            let noImageFormatIndex = 0;
-                            
-                            const tryNoImageFormat = () => {
-                                if (noImageFormatIndex < noImageFormats.length) {
-                                    const noImagePath = `image/NoImage.${noImageFormats[noImageFormatIndex]}`;
-                                    console.log(`Tentativo NoImage: ${noImagePath}`);
-                                    img.src = noImagePath;
-                                    noImageFormatIndex++;
-                                } else {
-                                    // Se anche NoImage non esiste, genera un placeholder
-                                    console.log(`NoImage non trovato, generando placeholder`);
-                                    generatePlaceholderImage();
-                                }
-                            };
-                            
-                            const generatePlaceholderImage = () => {
-                                // Crea un canvas per generare un'immagine placeholder
-                                const canvas = document.createElement('canvas');
-                                canvas.width = 400;
-                                canvas.height = 300;
-                                const ctx = canvas.getContext('2d');
                                 
-                                // Sfondo gradiente
-                                const gradient = ctx.createLinearGradient(0, 0, 400, 300);
-                                gradient.addColorStop(0, '#667eea');
-                                gradient.addColorStop(1, '#764ba2');
-                                ctx.fillStyle = gradient;
-                                ctx.fillRect(0, 0, 400, 300);
-                                
-                                // Testo del veicolo
-                                ctx.fillStyle = 'white';
-                                ctx.font = 'bold 20px Arial';
-                                ctx.textAlign = 'center';
-                                ctx.fillText(vehicleName, 200, 120);
-                                
-                                // Brand
-                                ctx.font = '16px Arial';
-                                ctx.fillText(vehicle.brand, 200, 150);
-                                
-                                // Emoji
-                                ctx.font = '40px Arial';
-                                ctx.fillText(vehicle.emoji, 200, 220);
-                                
-                                // Bordo
-                                ctx.strokeStyle = 'white';
-                                ctx.lineWidth = 3;
-                                ctx.strokeRect(10, 10, 380, 280);
-                                
-                                // Converti canvas in data URL e carica l'immagine
-                                const dataUrl = canvas.toDataURL('image/jpeg', 0.8);
-                                img.src = dataUrl;
-                                console.log(`Placeholder generato per ${vehicleName}`);
+                                console.log(`✅ Immagine caricata con successo: ${imagePath}`);
                             };
                             
-                            img.onerror = function() {
-                                tryNoImageFormat();
+                            realImg.onerror = function() {
+                                console.log(`❌ Errore nel caricamento dell'immagine: ${imagePath}`);
+                                // Mantieni il placeholder se l'immagine reale non carica
+                                img.classList.add('no-image');
                             };
                             
-                            img.onload = function() {
-                                console.log(`NoImage caricato con successo`);
-                                this.classList.add('loaded', 'no-image');
-                            };
+                            realImg.src = imagePath;
                             
-                            tryNoImageFormat();
-                        };
-                        
-                        img.onload = function() {
-                            console.log(`Immagine caricata con formato standard`);
-                            this.classList.add('loaded');
-                        };
-                        
-                        img.onerror = function() {
-                            tryAlternativeFormats();
-                        };
-                        
-                        // Inizia con il primo formato
-                        tryAlternativeFormats();
+                        } catch (error) {
+                            console.error(`❌ Errore nel caricamento dell'immagine per ${vehicleName}:`, error);
+                            img.classList.add('no-image');
+                        }
                         
                         return img;
                     };
@@ -686,7 +584,10 @@
                     const vehicleImageDiv = document.createElement('div');
                     vehicleImageDiv.className = 'vehicle-image';
                     
-                    vehicleImageDiv.appendChild(createImageElement(vehicle.name));
+                    // Crea l'elemento immagine in modo asincrono
+                    createImageElement(vehicle.name).then(img => {
+                        vehicleImageDiv.appendChild(img);
+                    });
                     
                     const fallbackEmoji = document.createElement('div');
                     fallbackEmoji.className = 'fallback-emoji';
@@ -774,12 +675,11 @@
         // Load vehicles data when page loads
         document.addEventListener('DOMContentLoaded', function() {
             // Verifica che image-config.js sia caricato
-            if (typeof window.imageMapping === 'undefined') {
+            if (typeof window.loadBestImage === 'undefined') {
                 console.warn('image-config.js non caricato correttamente, usando fallback');
-                // Crea un mapping di fallback
-                window.imageMapping = {
-                    "m4cc": "m4cc.jpg",
-                    "default": "NoImage.png"
+                // Crea funzioni di fallback
+                window.loadBestImage = async function(vehicleName, vehicleBrand) {
+                    return 'image/NoImage.png';
                 };
             } else {
                 console.log('image-config.js caricato correttamente');
