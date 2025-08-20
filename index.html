@@ -398,6 +398,7 @@
         </div>
     </div>
 
+    <script src="image-config.js"></script>
     <script>
         // Global variable to store vehicles data
         let vehicles = [];
@@ -499,12 +500,53 @@
                         
                         const tryNextFormat = () => {
                             if (currentFormatIndex < formats.length) {
+                                // Prova con il nome esatto del veicolo
                                 img.src = `image/${vehicleName}.${formats[currentFormatIndex]}`;
                                 currentFormatIndex++;
                             } else {
-                                // Nessuna immagine trovata, carica l'immagine NoImage
-                                loadNoImage();
+                                // Prova con nomi alternativi (lowercase, senza spazi, ecc.)
+                                tryAlternativeNames();
                             }
+                        };
+                        
+                        const tryAlternativeNames = () => {
+                            const alternativeNames = [
+                                vehicleName.toLowerCase(),
+                                vehicleName.replace(/\s+/g, ''),
+                                vehicleName.replace(/\s+/g, '_'),
+                                vehicleName.replace(/\s+/g, '-'),
+                                vehicleName.replace(/[^a-zA-Z0-9]/g, ''),
+                                vehicle.brand.toLowerCase() + '_' + vehicleName.toLowerCase()
+                            ];
+                            
+                            let altNameIndex = 0;
+                            let formatIndex = 0;
+                            
+                            const tryAltName = () => {
+                                if (altNameIndex < alternativeNames.length) {
+                                    if (formatIndex < formats.length) {
+                                        img.src = `image/${alternativeNames[altNameIndex]}.${formats[formatIndex]}`;
+                                        formatIndex++;
+                                    } else {
+                                        altNameIndex++;
+                                        formatIndex = 0;
+                                        tryAltName();
+                                    }
+                                } else {
+                                    // Nessuna immagine trovata, carica l'immagine NoImage
+                                    loadNoImage();
+                                }
+                            };
+                            
+                            img.onerror = function() {
+                                tryAltName();
+                            };
+                            
+                            img.onload = function() {
+                                this.classList.add('loaded');
+                            };
+                            
+                            tryAltName();
                         };
                         
                         const loadNoImage = () => {

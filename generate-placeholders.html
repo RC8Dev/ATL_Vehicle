@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore Immagini Placeholder - Atlantide 2.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .vehicle-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .vehicle-info {
+            flex: 1;
+        }
+        .vehicle-name {
+            font-weight: bold;
+            color: #333;
+        }
+        .vehicle-brand {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .status {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .status.missing {
+            background: #ffebee;
+            color: #c62828;
+        }
+        .status.exists {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+        .generate-btn {
+            background: #2196f3;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        .generate-btn:hover {
+            background: #1976d2;
+        }
+        .progress {
+            margin: 20px 0;
+            padding: 10px;
+            background: #e3f2fd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Generatore Immagini Placeholder</h1>
+        <p>Questo strumento genera automaticamente immagini placeholder per i veicoli che non hanno immagini.</p>
+        
+        <button class="generate-btn" onclick="generateAllPlaceholders()">Genera Tutte le Immagini Placeholder</button>
+        
+        <div id="progress" class="progress" style="display: none;">
+            <div id="progressText">Generazione in corso...</div>
+        </div>
+        
+        <div id="vehicleList"></div>
+    </div>
+
+    <script>
+        let vehicles = [];
+        let existingImages = [];
+
+        // Carica i dati dei veicoli
+        async function loadVehicles() {
+            try {
+                const response = await fetch('vehicles.json');
+                const data = await response.json();
+                vehicles = data.vehicles;
+                checkExistingImages();
+            } catch (error) {
+                console.error('Errore nel caricamento dei veicoli:', error);
+            }
+        }
+
+        // Controlla le immagini esistenti
+        async function checkExistingImages() {
+            const vehicleList = document.getElementById('vehicleList');
+            vehicleList.innerHTML = '';
+
+            for (const vehicle of vehicles) {
+                const vehicleDiv = document.createElement('div');
+                vehicleDiv.className = 'vehicle-item';
+                
+                const hasImage = await checkImageExists(`image/${vehicle.name}.jpg`);
+                const status = hasImage ? 'exists' : 'missing';
+                const statusText = hasImage ? 'Immagine presente' : 'Immagine mancante';
+                
+                vehicleDiv.innerHTML = `
+                    <div class="vehicle-info">
+                        <div class="vehicle-name">${vehicle.name}</div>
+                        <div class="vehicle-brand">${vehicle.brand}</div>
+                    </div>
+                    <span class="status ${status}">${statusText}</span>
+                `;
+                
+                vehicleList.appendChild(vehicleDiv);
+            }
+        }
+
+        // Controlla se un'immagine esiste
+        function checkImageExists(url) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => resolve(true);
+                img.onerror = () => resolve(false);
+                img.src = url;
+            });
+        }
+
+        // Genera un'immagine placeholder usando Canvas
+        function generatePlaceholder(vehicleName, brand, emoji) {
+            const canvas = document.createElement('canvas');
+            canvas.width = 400;
+            canvas.height = 300;
+            const ctx = canvas.getContext('2d');
+
+            // Sfondo gradiente
+            const gradient = ctx.createLinearGradient(0, 0, 400, 300);
+            gradient.addColorStop(0, '#667eea');
+            gradient.addColorStop(1, '#764ba2');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 400, 300);
+
+            // Testo del veicolo
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 24px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(vehicleName, 200, 120);
+
+            // Brand
+            ctx.font = '18px Arial';
+            ctx.fillText(brand, 200, 150);
+
+            // Emoji
+            ctx.font = '48px Arial';
+            ctx.fillText(emoji, 200, 220);
+
+            // Bordo
+            ctx.strokeStyle = 'white';
+            ctx.lineWidth = 3;
+            ctx.strokeRect(10, 10, 380, 280);
+
+            return canvas.toDataURL('image/jpeg', 0.8);
+        }
+
+        // Scarica un'immagine
+        function downloadImage(dataUrl, filename) {
+            const link = document.createElement('a');
+            link.href = dataUrl;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Genera tutte le immagini placeholder
+        async function generateAllPlaceholders() {
+            const progressDiv = document.getElementById('progress');
+            const progressText = document.getElementById('progressText');
+            progressDiv.style.display = 'block';
+
+            let generated = 0;
+            const total = vehicles.length;
+
+            for (const vehicle of vehicles) {
+                progressText.textContent = `Generazione ${generated + 1}/${total}: ${vehicle.name}`;
+                
+                const hasImage = await checkImageExists(`image/${vehicle.name}.jpg`);
+                
+                if (!hasImage) {
+                    const placeholderDataUrl = generatePlaceholder(vehicle.name, vehicle.brand, vehicle.emoji);
+                    downloadImage(placeholderDataUrl, `${vehicle.name}.jpg`);
+                    generated++;
+                }
+                
+                // Pausa per evitare di sovraccaricare il browser
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+
+            progressText.textContent = `Completato! Generate ${generated} immagini placeholder.`;
+            setTimeout(() => {
+                progressDiv.style.display = 'none';
+                checkExistingImages();
+            }, 2000);
+        }
+
+        // Carica i veicoli quando la pagina si carica
+        document.addEventListener('DOMContentLoaded', loadVehicles);
+    </script>
+</body>
+</html>
