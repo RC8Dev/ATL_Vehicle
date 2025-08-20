@@ -175,20 +175,12 @@
         }
 
         .vehicle-image .fallback-emoji {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 3rem;
-            color: #999;
-            z-index: 1;
+            display: none !important;
         }
 
         .vehicle-image img.loaded + .fallback-emoji {
             display: none;
         }
-
-
 
         .vehicle-image img.no-image {
             opacity: 0.7;
@@ -196,8 +188,7 @@
         }
 
         .vehicle-image img.no-image + .fallback-emoji {
-            display: block !important;
-            opacity: 0.8;
+            display: none !important;
         }
 
         .vehicle-image::before {
@@ -224,6 +215,36 @@
             font-weight: bold;
             color: #333;
             margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .copy-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 4px 8px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .copy-button:hover {
+            background: #5a6fd8;
+            transform: translateY(-1px);
+        }
+
+        .copy-button:active {
+            transform: translateY(0);
+        }
+
+        .copy-button.copied {
+            background: #4caf50;
         }
 
         .vehicle-description {
@@ -560,6 +581,12 @@
                                 // Se è NoImage, aggiungi la classe per lo stile speciale
                                 if (imagePath.includes('NoImage')) {
                                     img.classList.add('no-image');
+                                } else {
+                                    // Se l'immagine è caricata correttamente, nascondi l'emoji
+                                    const fallbackEmoji = img.parentElement.querySelector('.fallback-emoji');
+                                    if (fallbackEmoji) {
+                                        fallbackEmoji.style.display = 'none';
+                                    }
                                 }
                                 
                                 console.log(`✅ Immagine caricata con successo: ${imagePath}`);
@@ -569,6 +596,12 @@
                                 console.log(`❌ Errore nel caricamento dell'immagine: ${imagePath}`);
                                 // Mantieni il placeholder se l'immagine reale non carica
                                 img.classList.add('no-image');
+                                
+                                // Assicurati che l'emoji sia visibile in caso di errore
+                                const fallbackEmoji = img.parentElement.querySelector('.fallback-emoji');
+                                if (fallbackEmoji) {
+                                    fallbackEmoji.style.display = 'block';
+                                }
                             };
                             
                             realImg.src = imagePath;
@@ -576,6 +609,12 @@
                         } catch (error) {
                             console.error(`❌ Errore nel caricamento dell'immagine per ${vehicleName}:`, error);
                             img.classList.add('no-image');
+                            
+                            // Assicurati che l'emoji sia visibile in caso di errore
+                            const fallbackEmoji = img.parentElement.querySelector('.fallback-emoji');
+                            if (fallbackEmoji) {
+                                fallbackEmoji.style.display = 'block';
+                            }
                         }
                         
                         return img;
@@ -587,17 +626,25 @@
                     // Crea l'elemento immagine in modo asincrono
                     createImageElement(vehicle.name).then(img => {
                         vehicleImageDiv.appendChild(img);
+                        
+                        // Aggiungi l'emoji di fallback dopo l'immagine
+                        const fallbackEmoji = document.createElement('div');
+                        fallbackEmoji.className = 'fallback-emoji';
+                        fallbackEmoji.textContent = vehicle.emoji;
+                        vehicleImageDiv.appendChild(fallbackEmoji);
+                        
+
                     });
-                    
-                    const fallbackEmoji = document.createElement('div');
-                    fallbackEmoji.className = 'fallback-emoji';
-                    fallbackEmoji.textContent = vehicle.emoji;
-                    vehicleImageDiv.appendChild(fallbackEmoji);
                     
                     const vehicleInfoDiv = document.createElement('div');
                     vehicleInfoDiv.className = 'vehicle-info';
                     vehicleInfoDiv.innerHTML = `
-                        <div class="vehicle-name">${vehicle.name}</div>
+                        <div class="vehicle-name">
+                            ${vehicle.name}
+                            <button class="copy-button" onclick="copyVehicleName('${vehicle.name}')" title="Copia modello">
+                                📋
+                            </button>
+                        </div>
                         <div class="vehicle-description">${vehicle.description}</div>
                         <span class="category-badge category-${vehicle.category}">${getCategoryName(vehicle.category)}</span>
                     `;
@@ -671,6 +718,71 @@
 
         // Brand select functionality
         document.getElementById('brandSelect').addEventListener('change', applyFilters);
+
+        // Function to copy vehicle name to clipboard
+        function copyVehicleName(vehicleName) {
+            // Use the modern Clipboard API if available
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(vehicleName).then(() => {
+                    showCopyFeedback(vehicleName);
+                }).catch(err => {
+                    console.error('Errore nel copiare il testo:', err);
+                    fallbackCopyTextToClipboard(vehicleName);
+                });
+            } else {
+                // Fallback for older browsers or non-secure contexts
+                fallbackCopyTextToClipboard(vehicleName);
+            }
+        }
+
+        // Fallback copy function for older browsers
+        function fallbackCopyTextToClipboard(text) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            textArea.style.position = 'fixed';
+            textArea.style.left = '-999999px';
+            textArea.style.top = '-999999px';
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+            
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    showCopyFeedback(text);
+                } else {
+                    console.error('Fallback: Impossibile copiare il testo');
+                }
+            } catch (err) {
+                console.error('Fallback: Errore nel copiare il testo', err);
+            }
+            
+            document.body.removeChild(textArea);
+        }
+
+        // Function to show copy feedback
+        function showCopyFeedback(vehicleName) {
+            // Find the button that was clicked
+            const buttons = document.querySelectorAll('.copy-button');
+            buttons.forEach(button => {
+                if (button.getAttribute('onclick') && button.getAttribute('onclick').includes(vehicleName)) {
+                    const originalText = button.innerHTML;
+                    const originalClass = button.className;
+                    
+                    // Change button appearance to show success
+                    button.innerHTML = '✅';
+                    button.className = originalClass + ' copied';
+                    button.title = 'Copiato!';
+                    
+                    // Reset button after 2 seconds
+                    setTimeout(() => {
+                        button.innerHTML = originalText;
+                        button.className = originalClass;
+                        button.title = 'Copia modello';
+                    }, 2000);
+                }
+            });
+        }
 
         // Load vehicles data when page loads
         document.addEventListener('DOMContentLoaded', function() {
