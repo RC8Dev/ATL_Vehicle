@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚗 Catalogo Veicoli Atlantide 2.0 🚗</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-card h3 {
+            font-size: 2rem;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+
+        .stat-card p {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .brands-container {
+            padding: 30px;
+        }
+
+        .brand-section {
+            margin-bottom: 40px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .brand-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .brand-header .emoji {
+            font-size: 2rem;
+        }
+
+        .vehicles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .vehicle-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .vehicle-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .vehicle-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: #999;
+            position: relative;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .vehicle-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+
+        .vehicle-image img.loaded {
+            display: block;
+        }
+
+        .vehicle-image .fallback-emoji {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            color: #999;
+            z-index: 1;
+        }
+
+        .vehicle-image img.loaded + .fallback-emoji {
+            display: none;
+        }
+
+
+
+        .vehicle-image img.no-image {
+            opacity: 0.7;
+            filter: grayscale(50%);
+        }
+
+        .vehicle-image img.no-image + .fallback-emoji {
+            display: block !important;
+            opacity: 0.8;
+        }
+
+        .vehicle-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: left 0.5s;
+        }
+
+        .vehicle-card:hover .vehicle-image::before {
+            left: 100%;
+        }
+
+        .vehicle-info {
+            padding: 20px;
+        }
+
+        .vehicle-name {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .vehicle-description {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .category-car { background: #e3f2fd; color: #1976d2; }
+        .category-supercar { background: #fff3e0; color: #f57c00; }
+        .category-suv { background: #e8f5e8; color: #388e3c; }
+        .category-bike { background: #fce4ec; color: #c2185b; }
+        .category-truck { background: #f3e5f5; color: #7b1fa2; }
+        .category-police { background: #fff8e1; color: #fbc02d; }
+        .category-emergency { background: #ffebee; color: #d32f2f; }
+        .category-plane { background: #e0f2f1; color: #00796b; }
+
+        .search-container {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .search-box:focus {
+            border-color: #667eea;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 20px;
+            background: #667eea;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+
+        .brand-filter-container {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .brand-filter-label {
+            font-weight: bold;
+            color: #333;
+            font-size: 1rem;
+        }
+
+        .brand-select {
+            padding: 10px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            font-size: 1rem;
+            background: white;
+            color: #333;
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.3s ease;
+            min-width: 200px;
+        }
+
+        .brand-select:focus {
+            border-color: #667eea;
+        }
+
+        .brand-select option {
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .vehicles-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚗 Catalogo Veicoli Atlantide 2.0 🚗</h1>
+            <p>Stream Directory - Collezione Completa</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>60+</h3>
+                <p>🏭 Marche Totali</p>
+            </div>
+            <div class="stat-card">
+                <h3>700+</h3>
+                <p>🚙 Modelli Totali</p>
+            </div>
+            <div class="stat-card">
+                <h3>26</h3>
+                <p>🏍️ Motocicli</p>
+            </div>
+            <div class="stat-card">
+                <h3>2</h3>
+                <p>✈️ Aerei</p>
+            </div>
+            <div class="stat-card">
+                <h3>100+</h3>
+                <p>🚔 Veicoli di Emergenza</p>
+            </div>
+            <div class="stat-card">
+                <h3>80+</h3>
+                <p>🎨 Veicoli Personalizzati</p>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="🔍 Cerca veicoli..." id="searchBox">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">Tutti</button>
+                <button class="filter-btn" data-category="car">Auto</button>
+                <button class="filter-btn" data-category="supercar">Supercar</button>
+                <button class="filter-btn" data-category="suv">SUV</button>
+                <button class="filter-btn" data-category="bike">Moto</button>
+                <button class="filter-btn" data-category="truck">Camion</button>
+                <button class="filter-btn" data-category="police">Polizia</button>
+                <button class="filter-btn" data-category="emergency">Emergenza</button>
+                <button class="filter-btn" data-category="plane">Aerei</button>
+            </div>
+        </div>
+
+        <div class="brand-filter-container">
+            <label for="brandSelect" class="brand-filter-label">🏭 Seleziona Marca:</label>
+            <select id="brandSelect" class="brand-select">
+                <option value="all">Tutte le Marche</option>
+            </select>
+        </div>
+
+        <div class="brands-container" id="brandsContainer">
+            <!-- Content will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        // Global variable to store vehicles data
+        let vehicles = [];
+
+        // Function to load vehicles data from JSON file
+        async function loadVehiclesData() {
+            try {
+                const response = await fetch('vehicles.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                vehicles = data.vehicles;
+                
+                // Initialize the page after loading data
+                populateBrandSelect();
+                renderVehicles();
+            } catch (error) {
+                console.error('Error loading vehicles data from JSON file:', error);
+                // Fallback: try to load from embedded data
+                loadEmbeddedData();
+            }
+        }
+
+        // Fallback function to load embedded data
+        function loadEmbeddedData() {
+            try {
+                // Check if embedded data exists
+                if (typeof window.embeddedVehiclesData !== 'undefined') {
+                    vehicles = window.embeddedVehiclesData;
+                    populateBrandSelect();
+                    renderVehicles();
+                } else {
+                    // Show error message if no data is available
+                    document.getElementById('brandsContainer').innerHTML = 
+                        '<div style="text-align: center; padding: 50px; color: #666;">Errore nel caricamento dei dati dei veicoli. Verifica che il file vehicles.json sia presente o che i dati siano incorporati nel file HTML.</div>';
+                }
+            } catch (error) {
+                console.error('Error loading embedded data:', error);
+                document.getElementById('brandsContainer').innerHTML = 
+                    '<div style="text-align: center; padding: 50px; color: #666;">Errore nel caricamento dei dati dei veicoli. Verifica che il file vehicles.json sia presente.</div>';
+            }
+        }
+
+        // Function to populate brand select dropdown
+        function populateBrandSelect() {
+            const brandSelect = document.getElementById('brandSelect');
+            const brands = [...new Set(vehicles.map(vehicle => vehicle.brand))].sort();
+            
+            brands.forEach(brand => {
+                const option = document.createElement('option');
+                option.value = brand;
+                option.textContent = brand;
+                brandSelect.appendChild(option);
+            });
+        }
+
+        // Function to render vehicles
+        function renderVehicles(filteredVehicles = vehicles) {
+            const container = document.getElementById('brandsContainer');
+            container.innerHTML = '';
+
+            // Group vehicles by brand
+            const brands = {};
+            filteredVehicles.forEach(vehicle => {
+                if (!brands[vehicle.brand]) {
+                    brands[vehicle.brand] = [];
+                }
+                brands[vehicle.brand].push(vehicle);
+            });
+
+            // Render each brand
+            Object.keys(brands).sort().forEach(brand => {
+                const brandSection = document.createElement('div');
+                brandSection.className = 'brand-section';
+                
+                const brandHeader = document.createElement('div');
+                brandHeader.className = 'brand-header';
+                brandHeader.innerHTML = `
+                    <span class="emoji">${brands[brand][0].emoji}</span>
+                    <span>${brand}</span>
+                `;
+                
+                const vehiclesGrid = document.createElement('div');
+                vehiclesGrid.className = 'vehicles-grid';
+                
+                brands[brand].forEach(vehicle => {
+                    const vehicleCard = document.createElement('div');
+                    vehicleCard.className = 'vehicle-card';
+                    
+                    // Funzione per provare diversi formati di immagine
+                    const createImageElement = (vehicleName) => {
+                        const img = document.createElement('img');
+                        img.alt = vehicle.description;
+                        
+                        // Prova diversi formati di immagine
+                        const formats = ['jpg', 'jpeg', 'png', 'webp'];
+                        let currentFormatIndex = 0;
+                        
+                        const tryNextFormat = () => {
+                            if (currentFormatIndex < formats.length) {
+                                img.src = `image/${vehicleName}.${formats[currentFormatIndex]}`;
+                                currentFormatIndex++;
+                            } else {
+                                // Nessuna immagine trovata, carica l'immagine NoImage
+                                loadNoImage();
+                            }
+                        };
+                        
+                        const loadNoImage = () => {
+                            const noImageFormats = ['jpg', 'jpeg', 'png', 'webp'];
+                            let noImageFormatIndex = 0;
+                            
+                            const tryNoImageFormat = () => {
+                                if (noImageFormatIndex < noImageFormats.length) {
+                                    img.src = `image/NoImage.${noImageFormats[noImageFormatIndex]}`;
+                                    noImageFormatIndex++;
+                                } else {
+                                    // Se anche NoImage non esiste, nascondi l'immagine e mostra solo l'emoji
+                                    img.style.display = 'none';
+                                }
+                            };
+                            
+                            img.onerror = function() {
+                                tryNoImageFormat();
+                            };
+                            
+                            img.onload = function() {
+                                this.classList.add('loaded', 'no-image');
+                            };
+                            
+                            tryNoImageFormat();
+                        };
+                        
+                        img.onload = function() {
+                            this.classList.add('loaded');
+                        };
+                        
+                        img.onerror = function() {
+                            tryNextFormat();
+                        };
+                        
+                        // Inizia con il primo formato
+                        tryNextFormat();
+                        
+                        return img;
+                    };
+                    
+                    const vehicleImageDiv = document.createElement('div');
+                    vehicleImageDiv.className = 'vehicle-image';
+                    
+                    vehicleImageDiv.appendChild(createImageElement(vehicle.name));
+                    
+                    const fallbackEmoji = document.createElement('div');
+                    fallbackEmoji.className = 'fallback-emoji';
+                    fallbackEmoji.textContent = vehicle.emoji;
+                    vehicleImageDiv.appendChild(fallbackEmoji);
+                    
+                    const vehicleInfoDiv = document.createElement('div');
+                    vehicleInfoDiv.className = 'vehicle-info';
+                    vehicleInfoDiv.innerHTML = `
+                        <div class="vehicle-name">${vehicle.name}</div>
+                        <div class="vehicle-description">${vehicle.description}</div>
+                        <span class="category-badge category-${vehicle.category}">${getCategoryName(vehicle.category)}</span>
+                    `;
+                    
+                    vehicleCard.appendChild(vehicleImageDiv);
+                    vehicleCard.appendChild(vehicleInfoDiv);
+                    vehiclesGrid.appendChild(vehicleCard);
+                });
+                
+                brandSection.appendChild(brandHeader);
+                brandSection.appendChild(vehiclesGrid);
+                container.appendChild(brandSection);
+            });
+        }
+
+        function getCategoryName(category) {
+            const categories = {
+                'car': 'Auto',
+                'supercar': 'Supercar',
+                'suv': 'SUV',
+                'bike': 'Moto',
+                'truck': 'Camion',
+                'police': 'Polizia',
+                'emergency': 'Emergenza',
+                'plane': 'Aereo'
+            };
+            return categories[category] || category;
+        }
+
+        // Function to apply all filters
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            const selectedBrand = document.getElementById('brandSelect').value;
+            const activeCategory = document.querySelector('.filter-btn.active').dataset.category;
+            
+            let filteredVehicles = vehicles;
+            
+            // Apply search filter
+            if (searchTerm) {
+                filteredVehicles = filteredVehicles.filter(vehicle => 
+                    vehicle.name.toLowerCase().includes(searchTerm) ||
+                    vehicle.description.toLowerCase().includes(searchTerm) ||
+                    vehicle.brand.toLowerCase().includes(searchTerm)
+                );
+            }
+            
+            // Apply brand filter
+            if (selectedBrand !== 'all') {
+                filteredVehicles = filteredVehicles.filter(vehicle => vehicle.brand === selectedBrand);
+            }
+            
+            // Apply category filter
+            if (activeCategory !== 'all') {
+                filteredVehicles = filteredVehicles.filter(vehicle => vehicle.category === activeCategory);
+            }
+            
+            renderVehicles(filteredVehicles);
+        }
+
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', applyFilters);
+
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                applyFilters();
+            });
+        });
+
+        // Brand select functionality
+        document.getElementById('brandSelect').addEventListener('change', applyFilters);
+
+        // Load vehicles data when page loads
+        document.addEventListener('DOMContentLoaded', loadVehiclesData);
+    </script>
+</body>
+</html>

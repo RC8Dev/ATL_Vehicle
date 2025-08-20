@@ -1,0 +1,4225 @@
+{
+  "vehicles": [
+    {
+      "brand": "Aston Martin",
+      "name": "vantage23",
+      "description": "Aston Martin Vantage 2023",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Audi",
+      "name": "18rs7",
+      "description": "Audi RS7 2018",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "21rsq8",
+      "description": "Audi RS Q8 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "aaq4",
+      "description": "Audi A4 Quattro",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "audirs8",
+      "description": "Audi RS8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "CarsonsPriorRS3",
+      "description": "Audi RS3 Prior Design",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "gcma4sedan2021",
+      "description": "Audi A4 Sedan 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "Hycaders6",
+      "description": "Audi RS6 Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "ikx3abt20",
+      "description": "Audi ABT RS6 2020",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "mansrs6",
+      "description": "Audi RS6 Mansory",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "ocnetrongt",
+      "description": "Audi RS6 O.C. Tuning",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Audi",
+      "name": "q8hycade",
+      "description": "Audi Q8 Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "q8prior",
+      "description": "Audi Q8 Prior Design",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "r820",
+      "description": "Audi R8 2020",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "r8beastedit",
+      "description": "Audi R8 Beast Edition",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rmodr8alpil",
+      "description": "Audi R8 Alpil",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rmodr8alpilx",
+      "description": "Audi R8 Alpil X",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rmodr8c",
+      "description": "Audi R8 Competition",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs5mans",
+      "description": "Audi RS5 Mansory",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs615",
+      "description": "Audi RS6 2015",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs666",
+      "description": "Audi RS6 666 Edition",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs6abt20",
+      "description": "Audi RS6 ABT 2020",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs6abtkit",
+      "description": "Audi RS6 ABT Kit",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs6c8",
+      "description": "Audi RS6 C8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs6rabt20",
+      "description": "Audi RS6 ABT 2020",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs7",
+      "description": "Audi RS7",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs721",
+      "description": "Audi RS7 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs7beast",
+      "description": "Audi RS7 Beast",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs7c821",
+      "description": "Audi RS7 C8 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs7c8beast",
+      "description": "Audi RS7 C8 Beast",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "rs7wide",
+      "description": "Audi RS7 Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "s1",
+      "description": "Audi S1",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Audi",
+      "name": "s8d4",
+      "description": "Audi S8 D4",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Bentley",
+      "name": "ben17",
+      "description": "Bentley Continental GT 2017",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bentley",
+      "name": "bentaygam",
+      "description": "Bentley Bentayga Mansory",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Bentley",
+      "name": "contgt2011",
+      "description": "Bentley Continental GT 2011",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bentley",
+      "name": "rmodbentley1",
+      "description": "Bentley Continental GT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "aerox155",
+      "description": "Yamaha Aerox 155",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "bati901",
+      "description": "Ducati 901",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "brkout",
+      "description": "Harley Davidson Breakout",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "cb650r",
+      "description": "Honda CB650R",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "ccb_1000cbr",
+      "description": "Honda CBR1000RR",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "claw",
+      "description": "Custom Claw",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "espiritu",
+      "description": "Custom Espiritu",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "esr1m",
+      "description": "Custom ESR1M",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "esrmzo",
+      "description": "Custom ESR MZO",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "fenrir",
+      "description": "Custom Fenrir",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "GODzBMWS1000RR",
+      "description": "BMW S1000RR",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "GODzNINJAH2",
+      "description": "Kawasaki Ninja H2",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "GODzYAMR1",
+      "description": "Yamaha R1",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "kawagala",
+      "description": "Kawasaki Gala",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "km1000rr",
+      "description": "Kawasaki Ninja 1000RR",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "lpchopper2",
+      "description": "Custom Chopper",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "mv2019",
+      "description": "MV Agusta 2019",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "r6d",
+      "description": "Yamaha R6",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "rd",
+      "description": "Yamaha RD",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "RoyalCustomKawasakiSH2",
+      "description": "Kawasaki SH2",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "rr01",
+      "description": "Custom RR01",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "vrodwidowape",
+      "description": "Harley Davidson V-Rod",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "yzfr6",
+      "description": "Yamaha YZF R6",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "yzfr7",
+      "description": "Yamaha YZF R7",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "z8r",
+      "description": "Kawasaki Z8R",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Bikes",
+      "name": "zx6r",
+      "description": "Kawasaki ZX-6R",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "BMW",
+      "name": "17m760i",
+      "description": "BMW M760i 2017",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "2019m5",
+      "description": "BMW M5 2019",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "20xb7",
+      "description": "BMW X7 2020",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "22m5",
+      "description": "BMW M5 2022",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "2ncsbmwm8",
+      "description": "BMW M8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "2ncsx7",
+      "description": "BMW X7",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "alpinab7",
+      "description": "BMW Alpina B7",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "alpinab7BLACKEDITION",
+      "description": "BMW Alpina B7 Black Edition",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "bmw8mm",
+      "description": "BMW 8 Series",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "bmwe39",
+      "description": "BMW E39",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "bmwg07",
+      "description": "BMW G07",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "ckbmwm4offwhite",
+      "description": "BMW M4 Off White",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "e39touring",
+      "description": "BMW E39 Touring",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "e92bb",
+      "description": "BMW E92",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "g81hr",
+      "description": "BMW G81",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "giulia_2021",
+      "description": "Alfa Romeo Giulia 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "GODz95GSX",
+      "description": "Suzuki GSX-R 95",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "hpfm8",
+      "description": "BMW M8 HPF",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m135iwb",
+      "description": "BMW M135i Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m3e36",
+      "description": "BMW M3 E36",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m3e46",
+      "description": "BMW M3 E46",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m3e92",
+      "description": "BMW M3 E92",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m3g80mp",
+      "description": "BMW M3 G80",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m3mafia",
+      "description": "BMW M3 Mafia",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m3s",
+      "description": "BMW M3 S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m4c",
+      "description": "BMW M4 Competition",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "M4CC",
+      "description": "BMW M4 CC",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m4g82",
+      "description": "BMW M4 G82",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m4hr",
+      "description": "BMW M4 HR",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m4lb2",
+      "description": "BMW M4 LB2",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m4speedhunter",
+      "description": "BMW M4 Speedhunter",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m5cs22",
+      "description": "BMW M5 CS 2022",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m5e60",
+      "description": "BMW M5 E60",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m5prime",
+      "description": "BMW M5 Prime",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m6e24",
+      "description": "BMW M6 E24",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m8benzo",
+      "description": "BMW M8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "m8hc",
+      "description": "BMW M8 HC",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "manhartx7",
+      "description": "BMW X7 Manhart",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "mi8",
+      "description": "BMW i8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "mteche39",
+      "description": "BMW E39 M-Tech",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "rmodm3e36",
+      "description": "BMW M3 E36",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "rmodm4",
+      "description": "BMW M4",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "BMW",
+      "name": "rmodm4gts",
+      "description": "BMW M4 GTS",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "BMW",
+      "name": "rmodx6",
+      "description": "BMW X6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "BMW",
+      "name": "x6wz",
+      "description": "BMW X6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "2019chiron",
+      "description": "Bugatti Chiron 2019",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "centuria",
+      "description": "Bugatti Centuria",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "chironspeedhunter",
+      "description": "Bugatti Chiron Speedhunter",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "chironsuper",
+      "description": "Bugatti Chiron Super Sport",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "chironsupersport22",
+      "description": "Bugatti Chiron Super Sport 2022",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "dtdbolide",
+      "description": "Bugatti Bolide",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "gdivo",
+      "description": "Bugatti Divo",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "GODzMISTRALs",
+      "description": "Bugatti Mistral",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Bugatti",
+      "name": "GODzVEYRONSSWB",
+      "description": "Bugatti Veyron Super Sport Widebody",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Cadillac",
+      "name": "escaladeprime",
+      "description": "Cadillac Escalade Prime",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Camaro",
+      "name": "camaro68t",
+      "description": "Chevrolet Camaro 1968",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Camaro",
+      "name": "rmodzl1",
+      "description": "Chevrolet Camaro ZL1",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Camaro",
+      "name": "rr21camarowide",
+      "description": "Chevrolet Camaro Widebody 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Camaro",
+      "name": "zl1",
+      "description": "Chevrolet Camaro ZL1",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Chevrolet",
+      "name": "c8",
+      "description": "Chevrolet Corvette C8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Chevrolet",
+      "name": "c8p1",
+      "description": "Chevrolet Corvette C8 P1",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Chevrolet",
+      "name": "C8WidebodyLC",
+      "description": "Chevrolet Corvette C8 Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Chevrolet",
+      "name": "camarodragmachine",
+      "description": "Chevrolet Camaro Drag Machine",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Chevrolet",
+      "name": "impalag",
+      "description": "Chevrolet Impala",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Chevrolet",
+      "name": "playaturbozr1",
+      "description": "Chevrolet Playaturbo ZR1",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "16charger",
+      "description": "Dodge Charger 2016",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "charger21",
+      "description": "Dodge Charger 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "chargerf8",
+      "description": "Dodge Charger F8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "chr20",
+      "description": "Dodge Charger 2020",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "demon",
+      "description": "Dodge Challenger Demon",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "dzdaytona",
+      "description": "Dodge Daytona",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "GODzDEMONUTE",
+      "description": "Dodge Demon UTE",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "GODzDRIFTCAT",
+      "description": "Dodge Drift Cat",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "hellcatf9",
+      "description": "Dodge Hellcat F9",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "hellcatlb",
+      "description": "Dodge Hellcat LB",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "HellcatMagnum21",
+      "description": "Dodge Hellcat Magnum 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "HellstingerwbSC",
+      "description": "Dodge Hellcat Stinger Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "HycadeHellcatDurango",
+      "description": "Dodge Hellcat Durango Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "kgjoker",
+      "description": "Dodge Joker",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "raid",
+      "description": "Dodge Raid",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "rmodcharger",
+      "description": "Dodge Charger",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "rmodcharger69",
+      "description": "Dodge Charger 1969",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "sjdodge",
+      "description": "Dodge SJ",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Dodge",
+      "name": "ToraChargerLifted",
+      "description": "Dodge Charger Lifted",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "488animated",
+      "description": "Ferrari 488 Animated",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "488mishasp",
+      "description": "Ferrari 488 Mishasp",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "488sp",
+      "description": "Ferrari 488 Spider",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "812mnsry",
+      "description": "Ferrari 812 Superfast",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "daytonasp3",
+      "description": "Ferrari Daytona SP3",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "f12rp",
+      "description": "Ferrari F12",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "f812",
+      "description": "Ferrari 812",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "f8kspider",
+      "description": "Ferrari F8 Spider",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "ferrari812super",
+      "description": "Ferrari 812 Superfast",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "fxxkevo",
+      "description": "Ferrari FXX-K Evo",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "gta5rp_veh_ferrari19",
+      "description": "Ferrari 2019",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "ikx3sf90custom",
+      "description": "Ferrari SF90 Custom",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "impronta4",
+      "description": "Ferrari Impronta 4",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "laferrariquadturbo",
+      "description": "Ferrari LaFerrari Quad Turbo",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "rmodf40",
+      "description": "Ferrari F40",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ferrari",
+      "name": "sf90",
+      "description": "Ferrari SF90",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Fiat",
+      "name": "rmodbiposto",
+      "description": "Fiat Biposto",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "24mss",
+      "description": "Ford Mustang 2024",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "boss302",
+      "description": "Ford Mustang Boss 302",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "boss429",
+      "description": "Ford Mustang Boss 429",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "eleanor",
+      "description": "Ford Mustang Eleanor",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "f450",
+      "description": "Ford F-450",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Ford",
+      "name": "ffrs",
+      "description": "Ford Focus RS",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "GODz67ELGT500",
+      "description": "Ford Mustang GT500 1967",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ford",
+      "name": "GODzOOF6x6",
+      "description": "Ford 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Ford",
+      "name": "gt17",
+      "description": "Ford GT 2017",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ford",
+      "name": "lightningdually22",
+      "description": "Ford Lightning Dually 2022",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Ford",
+      "name": "mach1",
+      "description": "Ford Mustang Mach 1",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "mache",
+      "description": "Ford Mustang Mach-E",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "machewb",
+      "description": "Ford Mustang Mach-E Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "manssupersnake",
+      "description": "Ford Mustang Super Snake",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ford",
+      "name": "mgt",
+      "description": "Ford Mustang GT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ford",
+      "name": "mustang65",
+      "description": "Ford Mustang 1965",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "rapger19",
+      "description": "Ford Raptor 2019",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Ford",
+      "name": "rmodfordgt",
+      "description": "Ford GT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Ford",
+      "name": "rmodmustang",
+      "description": "Ford Mustang",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "Shelbytacoma4x4",
+      "description": "Ford Shelby Tacoma 4x4",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "ToraRTRShow",
+      "description": "Ford Mustang RTR Show",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ford",
+      "name": "ugcprime350",
+      "description": "Ford Prime 350",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "x6_yakuza",
+      "description": "BMW X6 Yakuza",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "xc90",
+      "description": "Volvo XC90",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "x6_narcos",
+      "description": "BMW X6 Narcos",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "x6_orga",
+      "description": "BMW X6 Orga",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "x6_midnight",
+      "description": "BMW X6 Midnight",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "x6_cali",
+      "description": "BMW X6 Cali",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "x6_camorra",
+      "description": "BMW X6 Camorra",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "volatus2",
+      "description": "Volatus 2",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "x6_brigada",
+      "description": "BMW X6 Brigada",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "vironmichalski",
+      "description": "Viron Michalski",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_tschetschenen",
+      "description": "Van Tschetschenen",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_vagos",
+      "description": "Van Vagos",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_woo",
+      "description": "Van Woo",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_yakuza",
+      "description": "Van Yakuza",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "viron",
+      "description": "Viron",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_santasofia",
+      "description": "Van Santa Sofia",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_st187",
+      "description": "Van ST187",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_syndicate",
+      "description": "Van Syndicate",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_triaden",
+      "description": "Van Triaden",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_orga",
+      "description": "Van Orga",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_osmanen",
+      "description": "Van Osmanen",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_peakyblinders",
+      "description": "Van Peaky Blinders",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_redlight",
+      "description": "Van Red Light",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_mg13",
+      "description": "Van MG13",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_midnight",
+      "description": "Van Midnight",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_narcos",
+      "description": "Van Narcos",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_ogs",
+      "description": "Van OGS",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_kadir",
+      "description": "Van Kadir",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_lcn",
+      "description": "Van LCN",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_lostmc",
+      "description": "Van Lost MC",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_medelin",
+      "description": "Van Medelin",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_gmbh",
+      "description": "Van GmbH",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_gonzales",
+      "description": "Van Gonzales",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_grove",
+      "description": "Van Grove",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_hoover",
+      "description": "Van Hoover",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_criminals",
+      "description": "Van Criminals",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_crips",
+      "description": "Van Crips",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_deparis",
+      "description": "Van De Paris",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_galaxy",
+      "description": "Van Galaxy",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_brigada",
+      "description": "Van Brigada",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_cali",
+      "description": "Van Cali",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_camorra",
+      "description": "Van Camorra",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_club77",
+      "description": "Van Club 77",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_blackjackets",
+      "description": "Van Black Jackets",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_blacklions",
+      "description": "Van Black Lions",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_bloods",
+      "description": "Van Bloods",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_bratwa",
+      "description": "Van Bratwa",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_acieecorps",
+      "description": "Van Aciee Corps",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_anarchy",
+      "description": "Van Anarchy",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "van_ballas",
+      "description": "Van Ballas",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "suv_triaden",
+      "description": "SUV Triaden",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "taxipolmav",
+      "description": "Taxi Police Maverick",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs7mans",
+      "description": "Audi RS7 Mansory",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "specialtf",
+      "description": "Special TF",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs7bratwa",
+      "description": "Audi RS7 Bratwa",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs6_santasofia",
+      "description": "Audi RS6 Santa Sofia",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs6_kadir",
+      "description": "Audi RS6 Kadir",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs6_lcn",
+      "description": "Audi RS6 LCN",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs6_gonzales",
+      "description": "Audi RS6 Gonzales",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs6_criminals",
+      "description": "Audi RS6 Criminals",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "RoyalCustome39m5_wb",
+      "description": "BMW E39 M5 Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rs6_cali",
+      "description": "Audi RS6 Cali",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "rocket",
+      "description": "Rocket",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_mg13",
+      "description": "Lowrider MG13",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_st187",
+      "description": "Lowrider ST187",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_vagos",
+      "description": "Lowrider Vagos",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_woo",
+      "description": "Lowrider Woo",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "ospreyhmx",
+      "description": "Osprey HMX",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_crips",
+      "description": "Lowrider Crips",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_deparis",
+      "description": "Lowrider De Paris",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_grove",
+      "description": "Lowrider Grove",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_hoover",
+      "description": "Lowrider Hoover",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "ikx3rebel22",
+      "description": "Rebel 2022",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_ballas",
+      "description": "Lowrider Ballas",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_blacklions",
+      "description": "Lowrider Black Lions",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "lowrider_bloods",
+      "description": "Lowrider Bloods",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "fanpounder",
+      "description": "Fan Pounder",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "haitun",
+      "description": "Haitun",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "hexerz2",
+      "description": "Hexer Z2",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Gang Vehicles",
+      "name": "fangle450",
+      "description": "Fangle 450",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "GMC",
+      "name": "21sierra",
+      "description": "GMC Sierra 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "GMC",
+      "name": "gmcev2",
+      "description": "GMC EV2",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "GMC",
+      "name": "GODzOOF6x6",
+      "description": "GMC 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Honda",
+      "name": "animfk8hr",
+      "description": "Honda Civic FK8 HR",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Honda",
+      "name": "civic2020",
+      "description": "Honda Civic 2020",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Honda",
+      "name": "cu2",
+      "description": "Honda Accord CU2",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Honda",
+      "name": "dc5",
+      "description": "Honda Integra DC5",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Honda",
+      "name": "EK9",
+      "description": "Honda Civic EK9",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Honda",
+      "name": "fk8",
+      "description": "Honda Civic FK8",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Honda",
+      "name": "nsx17",
+      "description": "Honda NSX 2017",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Honda",
+      "name": "ody18",
+      "description": "Honda Odyssey 2018",
+      "category": "bike",
+      "emoji": "🏍️"
+    },
+    {
+      "brand": "Hummer",
+      "name": "h2m",
+      "description": "Hummer H2",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Hyundai",
+      "name": "hyundaiveloster",
+      "description": "Hyundai Veloster",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jaguar",
+      "name": "fpaceprior",
+      "description": "Jaguar F-Pace Prior Design",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jaguar",
+      "name": "project8",
+      "description": "Jaguar XE Project 8",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jaguar",
+      "name": "xkgt",
+      "description": "Jaguar XK GT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Jeep",
+      "name": "2022jeep",
+      "description": "Jeep 2022",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jeep",
+      "name": "abhawk",
+      "description": "Jeep Grand Cherokee Trackhawk",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jeep",
+      "name": "demonhawkk",
+      "description": "Jeep Demonhawk",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jeep",
+      "name": "f22thawk",
+      "description": "Jeep Trackhawk F22",
+      "category": "aircraft",
+      "emoji": "✈️"
+    },
+    {
+      "brand": "Jeep",
+      "name": "gjeep",
+      "description": "Jeep Grand Cherokee",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jeep",
+      "name": "hychawk",
+      "description": "Jeep Trackhawk Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jeep",
+      "name": "KillerHwak",
+      "description": "Jeep Killerhawk",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Jeep",
+      "name": "rmodjeepg",
+      "description": "Jeep Grand Cherokee",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Koenigsegg",
+      "name": "agerars",
+      "description": "Koenigsegg Agera RS",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Koenigsegg",
+      "name": "gemera",
+      "description": "Koenigsegg Gemera",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Koenigsegg",
+      "name": "gxone",
+      "description": "Koenigsegg One:1",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Koenigsegg",
+      "name": "jes21",
+      "description": "Koenigsegg Jesko 2021",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "1016rwdevo",
+      "description": "Lamborghini Huracan EVO 1016",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "1016urus",
+      "description": "Lamborghini Urus 1016",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "18performante",
+      "description": "Lamborghini Huracan Performante 2018",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "amrevu23mg",
+      "description": "Lamborghini Revuelto 2023",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "carboDRCustoM",
+      "description": "Lamborghini Carbon Custom",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "choilambo",
+      "description": "Lamborghini Custom",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "ftecnica",
+      "description": "Lamborghini F-Tecnica",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "gcmlamboultimae",
+      "description": "Lamborghini Ultimae",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "huracanpriorbeast",
+      "description": "Lamborghini Huracan Prior Beast",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "hycadeurus",
+      "description": "Lamborghini Urus Hycade",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "lbperfs",
+      "description": "Lamborghini Performante",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "lbwkevo",
+      "description": "Lamborghini Huracan EVO",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "lpi80041",
+      "description": "Lamborghini Countach LPI 800-4",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "manscountach",
+      "description": "Lamborghini Countach Mansory",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "mansurus",
+      "description": "Lamborghini Urus Mansory",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "revueltobeast",
+      "description": "Lamborghini Revuelto Beast",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "rmodsvj",
+      "description": "Lamborghini Aventador SVJ",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "sex6",
+      "description": "Lamborghini Sesto Elemento",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "sian",
+      "description": "Lamborghini Sián",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "sinacp",
+      "description": "Lamborghini Sian CP",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "terzo",
+      "description": "Lamborghini Terzo Millennio",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "terzo1",
+      "description": "Lamborghini Terzo Millennio",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "TTSTO",
+      "description": "Lamborghini TT STO",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "urusbeastedit",
+      "description": "Lamborghini Urus Beast Edition",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "Urus_Stretch_6",
+      "description": "Lamborghini Urus Stretch 6",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "vanztt",
+      "description": "Lamborghini Vanz TT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "vanzur",
+      "description": "Lamborghini Vanz Urus",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "venatus",
+      "description": "Lamborghini Venatus",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Lamborghini",
+      "name": "zentenario",
+      "description": "Lamborghini Centenario",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Land Rover",
+      "name": "oycdefender",
+      "description": "Land Rover Defender",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Lexus",
+      "name": "lc500",
+      "description": "Lexus LC500",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Maserati",
+      "name": "ikx3mc2021",
+      "description": "Maserati MC20 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Maserati",
+      "name": "mlnovitec",
+      "description": "Maserati Novitec",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mazda",
+      "name": "cx30wz",
+      "description": "Mazda CX-30",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mazda",
+      "name": "furai",
+      "description": "Mazda Furai",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mazda",
+      "name": "GODzKRCRX7FD",
+      "description": "Mazda RX-7 FD",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mazda",
+      "name": "mxpan",
+      "description": "Mazda MX-5",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mazda",
+      "name": "na6",
+      "description": "Mazda MX-5 NA6",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mazda",
+      "name": "rx7",
+      "description": "Mazda RX-7",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mazda",
+      "name": "rx7veilside",
+      "description": "Mazda RX-7 Veilside",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "McLaren",
+      "name": "600ltwb",
+      "description": "McLaren 600LT Widebody",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "675lt",
+      "description": "McLaren 675LT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "720sdd",
+      "description": "McLaren 720S",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "765LT1016sc",
+      "description": "McLaren 765LT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "mansgt",
+      "description": "McLaren GT Mansory",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "neonp1",
+      "description": "McLaren P1 Neon",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "p1lbwk",
+      "description": "McLaren P1 LBWK",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "rmodp1gtr",
+      "description": "McLaren P1 GTR",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "senna",
+      "description": "McLaren Senna",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "McLaren",
+      "name": "ugc765lt",
+      "description": "McLaren 765LT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mechanic",
+      "name": "f450c",
+      "description": "Ford F-450 Mechanic",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Mechanic",
+      "name": "f550rbc",
+      "description": "Ford F-550 Mechanic",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Medic",
+      "name": "Ambulance_Dodge_RAM",
+      "description": "Dodge RAM Ambulance",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "ambulance1",
+      "description": "Ambulance",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "amrvan",
+      "description": "Ambulance Van",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "audirs6emsfire",
+      "description": "Audi RS6 EMS",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "aw139",
+      "description": "AgustaWestland AW139",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "BMW-x5_medic",
+      "description": "BMW X5 Medic",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "emsbmwm7",
+      "description": "BMW M7 EMS",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "RoyalCustom_RSQ8_EMS",
+      "description": "Audi RS Q8 EMS",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "RoyalDodgeRAMems",
+      "description": "Dodge RAM EMS",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "RoyalG30Medic",
+      "description": "BMW G30 Medic",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Medic",
+      "name": "RoyalYamahaEMS_white",
+      "description": "Yamaha EMS White",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "2018s650p",
+      "description": "Mercedes S650 2018",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "2020CLA45s",
+      "description": "Mercedes CLA45 AMG 2020",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "6x6",
+      "description": "Mercedes 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "a45",
+      "description": "Mercedes A45 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "amggt16",
+      "description": "Mercedes AMG GT 2016",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "amggtbs",
+      "description": "Mercedes AMG GT Black Series",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "amgone",
+      "description": "Mercedes AMG One",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "AmgGtrLight",
+      "description": "Mercedes AMG GT-R Light",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "benzc32",
+      "description": "Mercedes C32 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "benze55",
+      "description": "Mercedes E55 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "benzsl63",
+      "description": "Mercedes SL63 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "bg700w",
+      "description": "Mercedes G700",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "b63s",
+      "description": "Mercedes B63S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "c63hr",
+      "description": "Mercedes C63 AMG HR",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "c63scpd",
+      "description": "Mercedes C63 AMG S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "cls19",
+      "description": "Mercedes CLS 2019",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "cls500w219",
+      "description": "Mercedes CLS500 W219",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "ddcemperor",
+      "description": "Mercedes Emperor",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "DBb800",
+      "description": "Mercedes B800",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "dvc63darwin",
+      "description": "Mercedes C63 Darwin",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "DL_G900",
+      "description": "Mercedes G900",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "e55",
+      "description": "Mercedes E55",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "e63s",
+      "description": "Mercedes E63 AMG S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "f190e",
+      "description": "Mercedes 190E",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "g63",
+      "description": "Mercedes G63 AMG",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "g632019",
+      "description": "Mercedes G63 AMG 2019",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "g63amg6x6",
+      "description": "Mercedes G63 AMG 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "g63c",
+      "description": "Mercedes G63 AMG C",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "g63g800bo",
+      "description": "Mercedes G63 AMG G800",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "G63Sam",
+      "description": "Mercedes G63 AMG Sam",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "G65",
+      "description": "Mercedes G65 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "g900przemo6x6",
+      "description": "Mercedes G900 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "g700brabusretuned",
+      "description": "Mercedes G700 Brabus",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "gl63",
+      "description": "Mercedes GL63 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "GLK",
+      "description": "Mercedes GLK",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "gt63",
+      "description": "Mercedes GT63 AMG",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "gt63mt",
+      "description": "Mercedes GT63 AMG MT",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "gta5rp_veh_c63s",
+      "description": "Mercedes C63 AMG S",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "gta5rp_veh_gle1",
+      "description": "Mercedes GLE",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "mans65",
+      "description": "Mercedes Mansory",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "mansoryg63",
+      "description": "Mercedes G63 AMG Mansory",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "mayb900",
+      "description": "Mercedes Maybach B900",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "maybach",
+      "description": "Mercedes Maybach",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "mayg600p",
+      "description": "Mercedes Maybach G600",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "mercec63s",
+      "description": "Mercedes C63 AMG S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "merse63",
+      "description": "Mercedes E63",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "mlbrabus",
+      "description": "Mercedes ML Brabus",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "msls",
+      "description": "Mercedes SLS",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "priorgt63s",
+      "description": "Mercedes GT63 AMG S Prior",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "rmode63s",
+      "description": "Mercedes E63 AMG S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "rmodg65",
+      "description": "Mercedes G65 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "rmodgt63",
+      "description": "Mercedes GT63 AMG",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "s500w222",
+      "description": "Mercedes S500 W222",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "s550kev",
+      "description": "Mercedes S550",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "s63coupe",
+      "description": "Mercedes S63 AMG Coupe",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "s63msc",
+      "description": "Mercedes S63 AMG",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "topcargt63",
+      "description": "Mercedes GT63 AMG Topcar",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "w222wald",
+      "description": "Mercedes W222 Wald",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mercedes",
+      "name": "waldw222",
+      "description": "Mercedes W222 Wald",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mini",
+      "name": "cooperworks",
+      "description": "Mini Cooper Works",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mini",
+      "name": "jcw",
+      "description": "Mini John Cooper Works",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mini",
+      "name": "jcwc",
+      "description": "Mini John Cooper Works Convertible",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "2f2fgts",
+      "description": "Mitsubishi GTS",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "cp9a",
+      "description": "Mitsubishi Lancer Evolution CP9A",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "evo9",
+      "description": "Mitsubishi Lancer Evolution IX",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "evo9mr",
+      "description": "Mitsubishi Lancer Evolution IX MR",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "evoss",
+      "description": "Mitsubishi Lancer Evolution Super Sport",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "evox",
+      "description": "Mitsubishi Lancer Evolution X",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "fnfmits",
+      "description": "Mitsubishi FNF",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Mitsubishi",
+      "name": "hycadeevo",
+      "description": "Mitsubishi Lancer Evolution Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Nissan",
+      "name": "350z",
+      "description": "Nissan 350Z",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Nissan",
+      "name": "gta5rp_veh_gtr33",
+      "description": "Nissan Skyline GT-R R33",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "gtr50",
+      "description": "Nissan GT-R50",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "gtrh",
+      "description": "Nissan GT-R H",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "gtz34be",
+      "description": "Nissan Skyline GT-R R34",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "GODzHYCADER34",
+      "description": "Nissan Skyline GT-R R34 Hycade",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "lbwk35",
+      "description": "Nissan 350Z LBWK",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Nissan",
+      "name": "nismo20",
+      "description": "Nissan GT-R Nismo 2020",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "nissanr36",
+      "description": "Nissan GT-R R36",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "r33ptnc",
+      "description": "Nissan Skyline GT-R R33",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "r35secret",
+      "description": "Nissan GT-R R35 Secret",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "r355",
+      "description": "Nissan GT-R R35",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "rmod240sx",
+      "description": "Nissan 240SX",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Nissan",
+      "name": "rmodgtr",
+      "description": "Nissan GT-R",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "rmodskyline34",
+      "description": "Nissan Skyline GT-R R34",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "s15",
+      "description": "Nissan Silvia S15",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Nissan",
+      "name": "silviagd",
+      "description": "Nissan Silvia GD",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Nissan",
+      "name": "skyline",
+      "description": "Nissan Skyline",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Nissan",
+      "name": "ToraGTRWBMega",
+      "description": "Nissan GT-R Widebody Mega",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Nissan",
+      "name": "vanzkrc",
+      "description": "Nissan Vanz KRC",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Others",
+      "name": "204spetro",
+      "description": "204S Petro",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "banana",
+      "description": "Banana Car",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "carsonswbc6",
+      "description": "Carson Widebody C6",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "f1",
+      "description": "Formula 1 Car",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "fbv60pole",
+      "description": "FBV60 Pole",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Others",
+      "name": "fcxl",
+      "description": "FCXL",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "fmagnum",
+      "description": "Firebird Magnum",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "firebirdwz",
+      "description": "Firebird",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "fprotozwb",
+      "description": "F Proto Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "fortwo17",
+      "description": "Smart Fortwo 2017",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "GODz61BUS",
+      "description": "GODz 61 Bus",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "GODzKSTERZOTACHA",
+      "description": "GODz Kster Zotacha",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "GODzRB26SUBI",
+      "description": "GODz RB26 Subaru",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "GODzRZRPROLFTD",
+      "description": "GODz RZR Pro Lifted",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "gstbird1",
+      "description": "GST Bird",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "gsthoonitruck1",
+      "description": "GST Hooni Truck",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Others",
+      "name": "ikx3rebel22",
+      "description": "Rebel 2022",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "kart",
+      "description": "Go Kart",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "loweyezv",
+      "description": "Low Eye ZV",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "owlbelair2",
+      "description": "Owl Bel Air",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "rmodr50",
+      "description": "R50",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "rr21shelbystreet",
+      "description": "Shelby Street 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "rroctane",
+      "description": "Octane",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "rtruck",
+      "description": "R Truck",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Others",
+      "name": "RYGBus",
+      "description": "RYG Bus",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "scubieblob",
+      "description": "Subaru Blob",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "SHEL",
+      "description": "Shelby",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "singer",
+      "description": "Singer",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "swl",
+      "description": "SWL",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "taycan",
+      "description": "Porsche Taycan",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "thewolftruck",
+      "description": "Wolf Truck",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Others",
+      "name": "tieens",
+      "description": "Tieens",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Others",
+      "name": "vanzwb06",
+      "description": "Vanz Widebody 06",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Others",
+      "name": "yoti",
+      "description": "Yoti",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Pagani",
+      "name": "pagani_zonda_cinque",
+      "description": "Pagani Zonda Cinque",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Pagani",
+      "name": "rmodpagani",
+      "description": "Pagani",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Pagani",
+      "name": "TCZjc",
+      "description": "Pagani Zonda JC",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Planes",
+      "name": "f22a",
+      "description": "F-22 Raptor",
+      "category": "aircraft",
+      "emoji": "✈️"
+    },
+    {
+      "brand": "Planes",
+      "name": "mh47g",
+      "description": "MH-47G Chinook",
+      "category": "aircraft",
+      "emoji": "✈️"
+    },
+    {
+      "brand": "Police",
+      "name": "22g63",
+      "description": "Mercedes G63 AMG Police 2022",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "22m5sal",
+      "description": "BMW M5 Police 2022",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "ACTRPavant",
+      "description": "Audi Avant Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "ACTRPavantum",
+      "description": "Audi Avant Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "DL_a45",
+      "description": "Mercedes A45 AMG Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "DL_RS7",
+      "description": "Audi RS7 Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "DL_rs6",
+      "description": "Audi RS6 Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "nm_ctsv",
+      "description": "Cadillac CTS-V Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "nm_hell",
+      "description": "Dodge Hellcat Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "nm_z71",
+      "description": "Chevrolet Z71 Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "pd_escalader",
+      "description": "Cadillac Escalade Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polbike",
+      "description": "Police Bike",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polbmwm3",
+      "description": "BMW M3 Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polbmwm7",
+      "description": "BMW M7 Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polboat1",
+      "description": "Police Boat 1",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polboat2",
+      "description": "Police Boat 2",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polcharger18",
+      "description": "Dodge Charger Police 2018",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polcoach",
+      "description": "Police Coach",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polcross",
+      "description": "Police Cross",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polheli",
+      "description": "Police Helicopter",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polkawasaki",
+      "description": "Kawasaki Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polmav",
+      "description": "Police Maverick",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polmustang",
+      "description": "Ford Mustang Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "polsilverado19",
+      "description": "Chevrolet Silverado Police 2019",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "RoyalCustom_R34Marked",
+      "description": "Nissan Skyline GT-R R34 Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "rmodgt63police",
+      "description": "Mercedes GT63 AMG Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "sw_sprinter",
+      "description": "Mercedes Sprinter Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "sw_subrb",
+      "description": "Subaru Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "trhawk",
+      "description": "Police Trackhawk",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "unmarkedjl",
+      "description": "Unmarked Jeep",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "zm_rocket900",
+      "description": "Police Rocket 900",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Police",
+      "name": "zm_s500",
+      "description": "Mercedes S500 Police",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "PoleStar",
+      "name": "polestar1",
+      "description": "Polestar 1",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Porsche",
+      "name": "17mansorypnmr",
+      "description": "Porsche Panamera Mansory 2017",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "911gtrs",
+      "description": "Porsche 911 GT3 RS",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "911turbos",
+      "description": "Porsche 911 Turbo S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "carrera19",
+      "description": "Porsche 911 Carrera 2019",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "cayen19",
+      "description": "Porsche Cayenne 2019",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "cayennemecqq",
+      "description": "Porsche Cayenne",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "GODzDUKESGT2RSV2",
+      "description": "Porsche 911 GT2 RS",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "gt2rs",
+      "description": "Porsche 911 GT2 RS",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "gt3demon",
+      "description": "Porsche 911 GT3 Demon",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "gt3hycade",
+      "description": "Porsche 911 GT3 Hycade",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "gt4hycade",
+      "description": "Porsche 718 GT4 Hycade",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "ikx3gt3rs23",
+      "description": "Porsche 911 GT3 RS 2023",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "ikx3hn65",
+      "description": "Porsche 911 1965",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "manspana",
+      "description": "Porsche Panamera Mansory",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "panamturs21",
+      "description": "Porsche Panamera Turbo S 2021",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "por911gt3",
+      "description": "Porsche 911 GT3",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Porsche",
+      "name": "porche911speedhunter",
+      "description": "Porsche 911 Speedhunter",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "techart17",
+      "description": "Porsche Techart 2017",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "taycanani",
+      "description": "Porsche Taycan",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Porsche",
+      "name": "venuum911",
+      "description": "Porsche 911 Venuum",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Ram",
+      "name": "duallybshack",
+      "description": "Ram Dually",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Ram",
+      "name": "gcram1500",
+      "description": "Ram 1500",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Ram",
+      "name": "GODz22LIGHTNINGWB",
+      "description": "Ram Lightning Widebody 2022",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Ram",
+      "name": "GODzRAMTRX6x6",
+      "description": "Ram TRX 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Ram",
+      "name": "ramtrx6x6",
+      "description": "Ram TRX 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Ram",
+      "name": "trx",
+      "description": "Ram TRX",
+      "category": "truck",
+      "emoji": "🚛"
+    },
+    {
+      "brand": "Range Rover",
+      "name": "18Velar",
+      "description": "Range Rover Velar 2018",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Range Rover",
+      "name": "autobio",
+      "description": "Range Rover Autobiography",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Renault",
+      "name": "74civrswb",
+      "description": "Renault 5 Turbo Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "ab300",
+      "description": "Rolls Royce AB300",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "dawn",
+      "description": "Rolls Royce Dawn",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "dawnonyx",
+      "description": "Rolls Royce Dawn Onyx",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "kln",
+      "description": "Rolls Royce Kln",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "rculi",
+      "description": "Rolls Royce Cullinan",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "Rolls6x6",
+      "description": "Rolls Royce 6x6",
+      "category": "suv",
+      "emoji": "🚐"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "rrphantom",
+      "description": "Rolls Royce Phantom",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "rrwraith",
+      "description": "Rolls Royce Wraith",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Rolls Royce",
+      "name": "wraith",
+      "description": "Rolls Royce Wraith",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "17silvk9rb",
+      "description": "Chevrolet Silverado Sheriff 2017",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "eheli",
+      "description": "Sheriff Helicopter",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "gurkharb",
+      "description": "Gurkha Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "policeboat",
+      "description": "Sheriff Police Boat",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "Prisonvan2rb",
+      "description": "Prison Van",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "speeddemonrb",
+      "description": "Speed Demon Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor1rb",
+      "description": "Valor 1 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor3rb",
+      "description": "Valor 3 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor5rb",
+      "description": "Valor 5 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor6rb",
+      "description": "Valor 6 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor9rb",
+      "description": "Valor 9 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor10rb",
+      "description": "Valor 10 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor12rb",
+      "description": "Valor 12 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor13rb",
+      "description": "Valor 13 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valor15rb",
+      "description": "Valor 15 Sheriff",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Sheriff",
+      "name": "valorharley",
+      "description": "Valor Harley Davidson",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Subaru",
+      "name": "hycadesti",
+      "description": "Subaru Impreza Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Subaru",
+      "name": "subisti08",
+      "description": "Subaru Impreza STI 2008",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Tesla",
+      "name": "model",
+      "description": "Tesla Model S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Tesla",
+      "name": "modelx",
+      "description": "Tesla Model X",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Tesla",
+      "name": "models",
+      "description": "Tesla Model S",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Tesla",
+      "name": "teslapd",
+      "description": "Tesla Police Department",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "Tesla",
+      "name": "teslaroad",
+      "description": "Tesla Roadster",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "2019tundrac",
+      "description": "Toyota Tundra 2019",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "a80",
+      "description": "Toyota Supra A80",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "a80vygasaleem",
+      "description": "Toyota Supra A80",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "a90sh",
+      "description": "Toyota Supra A90",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "amarok",
+      "description": "Volkswagen Amarok",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "crownbp",
+      "description": "Toyota Crown",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "gfuckedsupra",
+      "description": "Toyota Supra",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "GODzHYCADEMK4V2",
+      "description": "Toyota Supra MK4 Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "gt86trust",
+      "description": "Toyota GT86 Trust",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "Toyota",
+      "name": "mk4hycade",
+      "description": "Toyota Supra MK4 Hycade",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "mkivsupra",
+      "description": "Toyota Supra MK4",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Toyota",
+      "name": "suprapandem",
+      "description": "Toyota Supra Pandem",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Varis",
+      "name": "brz13varis",
+      "description": "Subaru BRZ Varis 2013",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "Volvo",
+      "name": "v60hr",
+      "description": "Volvo V60",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "VW",
+      "name": "golf1",
+      "description": "Volkswagen Golf MK1",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "VW",
+      "name": "golf7",
+      "description": "Volkswagen Golf MK7",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "VW",
+      "name": "golf75r",
+      "description": "Volkswagen Golf R MK7.5",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "VW",
+      "name": "golf8gti",
+      "description": "Volkswagen Golf GTI MK8",
+      "category": "supercar",
+      "emoji": "🏎️"
+    },
+    {
+      "brand": "VW",
+      "name": "golf91wideprzemo",
+      "description": "Volkswagen Golf MK9 Widebody",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "VW",
+      "name": "passat",
+      "description": "Volkswagen Passat",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "VW",
+      "name": "polo2018",
+      "description": "Volkswagen Polo 2018",
+      "category": "emergency",
+      "emoji": "🚓"
+    },
+    {
+      "brand": "VW",
+      "name": "rmodmk7",
+      "description": "Volkswagen Golf MK7",
+      "category": "car",
+      "emoji": "🚗"
+    },
+    {
+      "brand": "W Motors",
+      "name": "wmfenyr",
+      "description": "W Motors Fenyr SuperSport",
+      "category": "supercar",
+      "emoji": "🏎️"
+    }
+  ]
+}
