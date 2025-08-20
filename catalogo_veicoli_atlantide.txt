@@ -1,0 +1,722 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    🚗 CATALOGO COMPLETO VEICOLI 🚗                          ║
+║                        Atlantide 2.0 - Stream Directory                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📊 STATISTICHE GENERALI:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• 🏭 Marche totali: 60+
+• 🚙 Modelli totali: 700+
+• 🏍️ Motocicli: 26
+• 🚁 Aerei: 2
+• 🚔 Veicoli di emergenza: 100+
+• 🎨 Veicoli personalizzati: 80+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Aston Martin]
+🚐 vantage23 — Aston Martin Vantage 2023
+
+[Audi]
+🚗 18rs7 — Audi RS7 2018
+🚗 21rsq8 — Audi RS Q8 2021
+🚗 aaq4 — Audi A4 Quattro
+🚗 audirs8 — Audi RS8
+🚗 CarsonsPriorRS3 — Audi RS3 Prior Design
+🚗 gcma4sedan2021 — Audi A4 Sedan 2021
+🚗 Hycaders6 — Audi RS6 Hycade
+🚗 ikx3abt20 — Audi ABT RS6 2020
+🚗 mansrs6 — Audi RS6 Mansory
+🏎️ ocnetrongt — Audi RS6 O.C. Tuning
+🚗 q8hycade — Audi Q8 Hycade
+🚗 q8prior — Audi Q8 Prior Design
+🚗 r820 — Audi R8 2020
+🚗 r8beastedit — Audi R8 Beast Edition
+🚗 rmodr8alpil — Audi R8 Alpil
+🚗 rmodr8alpilx — Audi R8 Alpil X
+🚗 rmodr8c — Audi R8 Competition
+🚗 rs5mans — Audi RS5 Mansory
+🚗 rs615 — Audi RS6 2015
+🚗 rs666 — Audi RS6 666 Edition
+🚗 rs6abt20 — Audi RS6 ABT 2020
+🚗 rs6abtkit — Audi RS6 ABT Kit
+🚗 rs6c8 — Audi RS6 C8
+🚗 rs6rabt20 — Audi RS6 ABT 2020
+🚗 rs7 — Audi RS7
+🚗 rs721 — Audi RS7 2021
+🚗 rs7beast — Audi RS7 Beast
+🚗 rs7c821 — Audi RS7 C8 2021
+🚗 rs7c8beast — Audi RS7 C8 Beast
+🚗 rs7wide — Audi RS7 Widebody
+🚗 s1 — Audi S1
+🚗 s8d4 — Audi S8 D4
+
+[Bentley]
+🏎️ ben17 — Bentley Continental GT 2017
+🚗 bentaygam — Bentley Bentayga Mansory
+🏎️ contgt2011 — Bentley Continental GT 2011
+🏎️ rmodbentley1 — Bentley Continental GT
+
+[Bikes]
+🏍️ aerox155 — Yamaha Aerox 155
+🏍️ bati901 — Ducati 901
+🏍️ brkout — Harley Davidson Breakout
+🚗 cb650r — Honda CB650R
+🚗 ccb_1000cbr — Honda CBR1000RR
+🚗 claw — Custom Claw
+🚗 espiritu — Custom Espiritu
+🚗 esr1m — Custom ESR1M
+🚗 esrmzo — Custom ESR MZO
+🚗 fenrir — Custom Fenrir
+🚗 GODzBMWS1000RR — BMW S1000RR
+🏍️ GODzNINJAH2 — Kawasaki Ninja H2
+🏍️ GODzYAMR1 — Yamaha R1
+🏍️ kawagala — Kawasaki Gala
+🏍️ km1000rr — Kawasaki Ninja 1000RR
+🚗 lpchopper2 — Custom Chopper
+🚗 mv2019 — MV Agusta 2019
+🏍️ r6d — Yamaha R6
+🏍️ rd — Yamaha RD
+🏍️ RoyalCustomKawasakiSH2 — Kawasaki SH2
+🚗 rr01 — Custom RR01
+🏍️ vrodwidowape — Harley Davidson V-Rod
+🏍️ yzfr6 — Yamaha YZF R6
+🏍️ yzfr7 — Yamaha YZF R7
+🏍️ z8r — Kawasaki Z8R
+🏍️ zx6r — Kawasaki ZX-6R
+
+[BMW]
+🚗 17m760i — BMW M760i 2017
+🚗 2019m5 — BMW M5 2019
+🚗 20xb7 — BMW X7 2020
+🚗 22m5 — BMW M5 2022
+🚗 2ncsbmwm8 — BMW M8
+🚗 2ncsx7 — BMW X7
+🚗 alpinab7 — BMW Alpina B7
+🚗 alpinab7BLACKEDITION — BMW Alpina B7 Black Edition
+🚗 bmw8mm — BMW 8 Series
+🚗 bmwe39 — BMW E39
+🚗 bmwg07 — BMW G07
+🚗 ckbmwm4offwhite — BMW M4 Off White
+🚗 e39touring — BMW E39 Touring
+🚗 e92bb — BMW E92
+🚗 g81hr — BMW G81
+🚗 giulia_2021 — Alfa Romeo Giulia 2021
+🚗 GODz95GSX — Suzuki GSX-R 95
+🚗 hpfm8 — BMW M8 HPF
+🚗 m135iwb — BMW M135i Widebody
+🚗 m3e36 — BMW M3 E36
+🚗 m3e46 — BMW M3 E46
+🚗 m3e92 — BMW M3 E92
+🚗 m3g80mp — BMW M3 G80
+🚗 m3mafia — BMW M3 Mafia
+🚗 m3s — BMW M3 S
+🚗 m4c — BMW M4 Competition
+🚗 M4CC — BMW M4 CC
+🚗 m4g82 — BMW M4 G82
+🚗 m4hr — BMW M4 HR
+🚗 m4lb2 — BMW M4 LB2
+🚗 m4speedhunter — BMW M4 Speedhunter
+🚗 m5cs22 — BMW M5 CS 2022
+🚗 m5e60 — BMW M5 E60
+🚗 m5prime — BMW M5 Prime
+🚗 m6e24 — BMW M6 E24
+🚗 m8benzo — BMW M8
+🚗 m8hc — BMW M8 HC
+🚗 manhartx7 — BMW X7 Manhart
+🚗 mi8 — BMW i8
+🚗 mteche39 — BMW E39 M-Tech
+🚗 rmodm3e36 — BMW M3 E36
+🚗 rmodm4 — BMW M4
+🏎️ rmodm4gts — BMW M4 GTS
+🚐 rmodx6 — BMW X6
+🚐 x6wz — BMW X6
+
+[Bugatti]
+🏎️ 2019chiron — Bugatti Chiron 2019
+🏎️ centuria — Bugatti Centuria
+🏎️ chironspeedhunter — Bugatti Chiron Speedhunter
+🏎️ chironsuper — Bugatti Chiron Super Sport
+🏎️ chironsupersport22 — Bugatti Chiron Super Sport 2022
+🏎️ dtdbolide — Bugatti Bolide
+🏎️ gdivo — Bugatti Divo
+🏎️ GODzMISTRALs — Bugatti Mistral
+🏎️ GODzVEYRONSSWB — Bugatti Veyron Super Sport Widebody
+
+[Cadillac]
+🚗 escaladeprime — Cadillac Escalade Prime
+
+[Camaro]
+🚗 camaro68t — Chevrolet Camaro 1968
+🚗 rmodzl1 — Chevrolet Camaro ZL1
+🚗 rr21camarowide — Chevrolet Camaro Widebody 2021
+🚗 zl1 — Chevrolet Camaro ZL1
+
+[Chevrolet]
+🚗 c8 — Chevrolet Corvette C8
+🚗 c8p1 — Chevrolet Corvette C8 P1
+🚗 C8WidebodyLC — Chevrolet Corvette C8 Widebody
+🚗 camarodragmachine — Chevrolet Camaro Drag Machine
+🚗 impalag — Chevrolet Impala
+🚗 playaturbozr1 — Chevrolet Playaturbo ZR1
+
+[Dodge]
+🚗 16charger — Dodge Charger 2016
+🚗 charger21 — Dodge Charger 2021
+🚗 chargerf8 — Dodge Charger F8
+🚗 chr20 — Dodge Charger 2020
+🚗 demon — Dodge Challenger Demon
+🚗 dzdaytona — Dodge Daytona
+🚗 GODzDEMONUTE — Dodge Demon UTE
+🚗 GODzDRIFTCAT — Dodge Drift Cat
+🚗 hellcatf9 — Dodge Hellcat F9
+🚗 hellcatlb — Dodge Hellcat LB
+🚗 HellcatMagnum21 — Dodge Hellcat Magnum 2021
+🚗 HellstingerwbSC — Dodge Hellcat Stinger Widebody
+🚗 HycadeHellcatDurango — Dodge Hellcat Durango Hycade
+🚗 kgjoker — Dodge Joker
+🚗 raid — Dodge Raid
+🚗 rmodcharger — Dodge Charger
+🚗 rmodcharger69 — Dodge Charger 1969
+🚗 sjdodge — Dodge SJ
+🚗 ToraChargerLifted — Dodge Charger Lifted
+
+[Ferrari]
+🏎️ 488animated — Ferrari 488 Animated
+🏎️ 488mishasp — Ferrari 488 Mishasp
+🏎️ 488sp — Ferrari 488 Spider
+🏎️ 812mnsry — Ferrari 812 Superfast
+🏎️ daytonasp3 — Ferrari Daytona SP3
+🏎️ f12rp — Ferrari F12
+🏎️ f812 — Ferrari 812
+🏎️ f8kspider — Ferrari F8 Spider
+🏎️ ferrari812super — Ferrari 812 Superfast
+🏎️ fxxkevo — Ferrari FXX-K Evo
+🏎️ gta5rp_veh_ferrari19 — Ferrari 2019
+🏎️ ikx3sf90custom — Ferrari SF90 Custom
+🏎️ impronta4 — Ferrari Impronta 4
+🏎️ laferrariquadturbo — Ferrari LaFerrari Quad Turbo
+🏎️ rmodf40 — Ferrari F40
+🏎️ sf90 — Ferrari SF90
+
+[Fiat]
+🚗 rmodbiposto — Fiat Biposto
+
+[Ford]
+🚗 24mss — Ford Mustang 2024
+🚗 boss302 — Ford Mustang Boss 302
+🚗 boss429 — Ford Mustang Boss 429
+🚗 eleanor — Ford Mustang Eleanor
+🚛 f450 — Ford F-450
+🚗 ffrs — Ford Focus RS
+🏎️ GODz67ELGT500 — Ford Mustang GT500 1967
+🚐 GODzOOF6x6 — Ford 6x6
+🏎️ gt17 — Ford GT 2017
+🚗 lightningdually22 — Ford Lightning Dually 2022
+🚗 mach1 — Ford Mustang Mach 1
+🚗 mache — Ford Mustang Mach-E
+🚗 machewb — Ford Mustang Mach-E Widebody
+🚗 manssupersnake — Ford Mustang Super Snake
+🏎️ mgt — Ford Mustang GT
+🚗 mustang65 — Ford Mustang 1965
+🚛 rapger19 — Ford Raptor 2019
+🏎️ rmodfordgt — Ford GT
+🚗 rmodmustang — Ford Mustang
+🚗 Shelbytacoma4x4 — Ford Shelby Tacoma 4x4
+🚗 ToraRTRShow — Ford Mustang RTR Show
+🚗 ugcprime350 — Ford Prime 350
+
+[Gang Vehicles]
+🚐 x6_yakuza — BMW X6 Yakuza
+🚗 xc90 — Volvo XC90
+🚐 x6_narcos — BMW X6 Narcos
+🚐 x6_orga — BMW X6 Orga
+🚐 x6_midnight — BMW X6 Midnight
+🚐 x6_cali — BMW X6 Cali
+🚐 x6_camorra — BMW X6 Camorra
+🚗 volatus2 — Volatus 2
+🚐 x6_brigada — BMW X6 Brigada
+🚗 vironmichalski — Viron Michalski
+🚐 van_tschetschenen — Van Tschetschenen
+🚐 van_vagos — Van Vagos
+🚐 van_woo — Van Woo
+🚐 van_yakuza — Van Yakuza
+🚗 viron — Viron
+🚐 van_santasofia — Van Santa Sofia
+🚐 van_st187 — Van ST187
+🚐 van_syndicate — Van Syndicate
+🚐 van_triaden — Van Triaden
+🚐 van_orga — Van Orga
+🚐 van_osmanen — Van Osmanen
+🚐 van_peakyblinders — Van Peaky Blinders
+🚐 van_redlight — Van Red Light
+🚐 van_mg13 — Van MG13
+🚐 van_midnight — Van Midnight
+🚐 van_narcos — Van Narcos
+🚐 van_ogs — Van OGS
+🚐 van_kadir — Van Kadir
+🚐 van_lcn — Van LCN
+🚐 van_lostmc — Van Lost MC
+🚐 van_medelin — Van Medelin
+🚐 van_gmbh — Van GmbH
+🚐 van_gonzales — Van Gonzales
+🚐 van_grove — Van Grove
+🚐 van_hoover — Van Hoover
+🚐 van_criminals — Van Criminals
+🚐 van_crips — Van Crips
+🚐 van_deparis — Van De Paris
+🚐 van_galaxy — Van Galaxy
+🚐 van_brigada — Van Brigada
+🚐 van_cali — Van Cali
+🚐 van_camorra — Van Camorra
+🚐 van_club77 — Van Club 77
+🚐 van_blackjackets — Van Black Jackets
+🚐 van_blacklions — Van Black Lions
+🚐 van_bloods — Van Bloods
+🚐 van_bratwa — Van Bratwa
+🚐 van_acieecorps — Van Aciee Corps
+🚐 van_anarchy — Van Anarchy
+🚐 van_ballas — Van Ballas
+🚗 suv_triaden — SUV Triaden
+🚓 taxipolmav — Taxi Police Maverick
+🚗 rs7mans — Audi RS7 Mansory
+🚗 specialtf — Special TF
+🚗 rs7bratwa — Audi RS7 Bratwa
+🚗 rs6_santasofia — Audi RS6 Santa Sofia
+🚗 rs6_kadir — Audi RS6 Kadir
+🚗 rs6_lcn — Audi RS6 LCN
+🚗 rs6_gonzales — Audi RS6 Gonzales
+🚗 rs6_criminals — Audi RS6 Criminals
+🚗 RoyalCustome39m5_wb — BMW E39 M5 Widebody
+🚗 rs6_cali — Audi RS6 Cali
+🚗 rocket — Rocket
+🚗 lowrider_mg13 — Lowrider MG13
+🚗 lowrider_st187 — Lowrider ST187
+🚗 lowrider_vagos — Lowrider Vagos
+🚗 lowrider_woo — Lowrider Woo
+🚗 ospreyhmx — Osprey HMX
+🚗 lowrider_crips — Lowrider Crips
+🚗 lowrider_deparis — Lowrider De Paris
+🚗 lowrider_grove — Lowrider Grove
+🚗 lowrider_hoover — Lowrider Hoover
+🚗 ikx3rebel22 — Rebel 2022
+🚗 lowrider_ballas — Lowrider Ballas
+🚗 lowrider_blacklions — Lowrider Black Lions
+🚗 lowrider_bloods — Lowrider Bloods
+🚗 fanpounder — Fan Pounder
+🚗 haitun — Haitun
+🚗 hexerz2 — Hexer Z2
+🚗 fangle450 — Fangle 450
+
+[GMC]
+🚗 21sierra — GMC Sierra 2021
+🚗 gmcev2 — GMC EV2
+🚐 GODzOOF6x6 — GMC 6x6
+
+[Honda]
+🚗 animfk8hr — Honda Civic FK8 HR
+🚗 civic2020 — Honda Civic 2020
+🚗 cu2 — Honda Accord CU2
+🚗 dc5 — Honda Integra DC5
+🚗 EK9 — Honda Civic EK9
+🚗 fk8 — Honda Civic FK8
+🚗 nsx17 — Honda NSX 2017
+🚗 ody18 — Honda Odyssey 2018
+
+[Hummer]
+🚗 h2m — Hummer H2
+
+[Hyundai]
+🚗 hyundaiveloster — Hyundai Veloster
+
+[Jaguar]
+🚗 fpaceprior — Jaguar F-Pace Prior Design
+🚗 project8 — Jaguar XE Project 8
+🏎️ xkgt — Jaguar XK GT
+
+[Jeep]
+🚗 2022jeep — Jeep 2022
+🚗 abhawk — Jeep Grand Cherokee Trackhawk
+🚗 demonhawkk — Jeep Demonhawk
+✈️ f22thawk — Jeep Trackhawk F22
+🚗 gjeep — Jeep Grand Cherokee
+🚗 hychawk — Jeep Trackhawk Hycade
+🚗 KillerHwak — Jeep Killerhawk
+🚗 rmodjeepg — Jeep Grand Cherokee
+
+[Koenigsegg]
+🚗 agerars — Koenigsegg Agera RS
+🚗 gemera — Koenigsegg Gemera
+🚗 gxone — Koenigsegg One:1
+🚗 jes21 — Koenigsegg Jesko 2021
+
+[Lamborghini]
+🏎️ 1016rwdevo — Lamborghini Huracan EVO 1016
+🏎️ 1016urus — Lamborghini Urus 1016
+🏎️ 18performante — Lamborghini Huracan Performante 2018
+🏎️ amrevu23mg — Lamborghini Revuelto 2023
+🏎️ carboDRCustoM — Lamborghini Carbon Custom
+🏎️ choilambo — Lamborghini Custom
+🏎️ ftecnica — Lamborghini F-Tecnica
+🏎️ gcmlamboultimae — Lamborghini Ultimae
+🏎️ huracanpriorbeast — Lamborghini Huracan Prior Beast
+🏎️ hycadeurus — Lamborghini Urus Hycade
+🏎️ lbperfs — Lamborghini Performante
+🏎️ lbwkevo — Lamborghini Huracan EVO
+🏎️ lpi80041 — Lamborghini Countach LPI 800-4
+🏎️ manscountach — Lamborghini Countach Mansory
+🏎️ mansurus — Lamborghini Urus Mansory
+🏎️ revueltobeast — Lamborghini Revuelto Beast
+🏎️ rmodsvj — Lamborghini Aventador SVJ
+🚐 sex6 — Lamborghini Sesto Elemento
+🏎️ sian — Lamborghini Sián
+🏎️ sinacp — Lamborghini Sian CP
+🏎️ terzo — Lamborghini Terzo Millennio
+🏎️ terzo1 — Lamborghini Terzo Millennio
+🏎️ TTSTO — Lamborghini TT STO
+🏎️ urusbeastedit — Lamborghini Urus Beast Edition
+🏎️ Urus_Stretch_6 — Lamborghini Urus Stretch 6
+🚐 vanztt — Lamborghini Vanz TT
+🚐 vanzur — Lamborghini Vanz Urus
+🏎️ venatus — Lamborghini Venatus
+🏎️ zentenario — Lamborghini Centenario
+
+[Land Rover]
+🚗 oycdefender — Land Rover Defender
+
+[Lexus]
+🚗 lc500 — Lexus LC500
+
+[Maserati]
+🚗 ikx3mc2021 — Maserati MC20 2021
+🚗 mlnovitec — Maserati Novitec
+
+[Mazda]
+🚗 cx30wz — Mazda CX-30
+🚗 furai — Mazda Furai
+🚗 GODzKRCRX7FD — Mazda RX-7 FD
+🚗 mxpan — Mazda MX-5
+🚗 na6 — Mazda MX-5 NA6
+🚗 rx7 — Mazda RX-7
+🚗 rx7veilside — Mazda RX-7 Veilside
+
+[McLaren]
+🚗 600ltwb — McLaren 600LT Widebody
+🚗 675lt — McLaren 675LT
+🚗 720sdd — McLaren 720S
+🚗 765LT1016sc — McLaren 765LT
+🏎️ mansgt — McLaren GT Mansory
+🚗 neonp1 — McLaren P1 Neon
+🚗 p1lbwk — McLaren P1 LBWK
+🏎️ rmodp1gtr — McLaren P1 GTR
+🏎️ senna — McLaren Senna
+🚗 ugc765lt — McLaren 765LT
+
+[Mechanic]
+🚛 f450c — Ford F-450 Mechanic
+🚗 f550rbc — Ford F-550 Mechanic
+
+[Medic]
+🚓 Ambulance_Dodge_RAM — Dodge RAM Ambulance
+🚓 ambulance1 — Ambulance
+🚓 amrvan — Ambulance Van
+🚓 audirs6emsfire — Audi RS6 EMS
+✈️ aw139 — AgustaWestland AW139
+🚗 BMW-x5_medic — BMW X5 Medic
+🚓 emsbmwm7 — BMW M7 EMS
+🚓 RoyalCustom_RSQ8_EMS — Audi RS Q8 EMS
+🚓 RoyalDodgeRAMems — Dodge RAM EMS
+🚗 RoyalG30Medic — BMW G30 Medic
+🏍️ RoyalYamahaEMS_white — Yamaha EMS White
+
+[Mercedes]
+🚗 2018s650p — Mercedes S650 2018
+🚗 2020CLA45s — Mercedes CLA45 AMG 2020
+🚐 6x6 — Mercedes 6x6
+🚗 a45 — Mercedes A45 AMG
+🏎️ amggt16 — Mercedes AMG GT 2016
+🏎️ amggtbs — Mercedes AMG GT Black Series
+🚗 amgone — Mercedes AMG One
+🏎️ AmgGtrLight — Mercedes AMG GT-R Light
+🚗 benzc32 — Mercedes C32 AMG
+🚗 benze55 — Mercedes E55 AMG
+🚗 benzsl63 — Mercedes SL63 AMG
+🚗 bg700w — Mercedes G700
+🚗 b63s — Mercedes B63S
+🚗 c63hr — Mercedes C63 AMG HR
+🚗 c63scpd — Mercedes C63 AMG S
+🚗 cls19 — Mercedes CLS 2019
+🚗 cls500w219 — Mercedes CLS500 W219
+🚗 ddcemperor — Mercedes Emperor
+🚗 DBb800 — Mercedes B800
+🚗 dvc63darwin — Mercedes C63 Darwin
+🚗 DL_G900 — Mercedes G900
+🚗 e55 — Mercedes E55
+🚗 e63s — Mercedes E63 AMG S
+🚗 f190e — Mercedes 190E
+🚛 g63 — Mercedes G63 AMG
+🚛 g632019 — Mercedes G63 AMG 2019
+🚐 g63amg6x6 — Mercedes G63 AMG 6x6
+🚛 g63c — Mercedes G63 AMG C
+🚛 g63g800bo — Mercedes G63 AMG G800
+🚛 G63Sam — Mercedes G63 AMG Sam
+🚗 G65 — Mercedes G65 AMG
+🚐 g900przemo6x6 — Mercedes G900 6x6
+🚗 g700brabusretuned — Mercedes G700 Brabus
+🚗 gl63 — Mercedes GL63 AMG
+🚗 GLK — Mercedes GLK
+🏎️ gt63 — Mercedes GT63 AMG
+🏎️ gt63mt — Mercedes GT63 AMG MT
+🏎️ gta5rp_veh_c63s — Mercedes C63 AMG S
+🏎️ gta5rp_veh_gle1 — Mercedes GLE
+🚗 mans65 — Mercedes Mansory
+🚛 mansoryg63 — Mercedes G63 AMG Mansory
+🚗 mayb900 — Mercedes Maybach B900
+🚗 maybach — Mercedes Maybach
+🚗 mayg600p — Mercedes Maybach G600
+🚗 mercec63s — Mercedes C63 AMG S
+🚗 merse63 — Mercedes E63
+🚗 mlbrabus — Mercedes ML Brabus
+🚗 msls — Mercedes SLS
+🏎️ priorgt63s — Mercedes GT63 AMG S Prior
+🚗 rmode63s — Mercedes E63 AMG S
+🚗 rmodg65 — Mercedes G65 AMG
+🏎️ rmodgt63 — Mercedes GT63 AMG
+🚗 s500w222 — Mercedes S500 W222
+🚗 s550kev — Mercedes S550
+🚗 s63coupe — Mercedes S63 AMG Coupe
+🚗 s63msc — Mercedes S63 AMG
+🏎️ topcargt63 — Mercedes GT63 AMG Topcar
+🚗 w222wald — Mercedes W222 Wald
+🚗 waldw222 — Mercedes W222 Wald
+
+[Mini]
+🚗 cooperworks — Mini Cooper Works
+🚗 jcw — Mini John Cooper Works
+🚗 jcwc — Mini John Cooper Works Convertible
+
+[Mitsubishi]
+🏎️ 2f2fgts — Mitsubishi GTS
+🚗 cp9a — Mitsubishi Lancer Evolution CP9A
+🚗 evo9 — Mitsubishi Lancer Evolution IX
+🚗 evo9mr — Mitsubishi Lancer Evolution IX MR
+🚗 evoss — Mitsubishi Lancer Evolution Super Sport
+🚗 evox — Mitsubishi Lancer Evolution X
+🚗 fnfmits — Mitsubishi FNF
+🚗 hycadeevo — Mitsubishi Lancer Evolution Hycade
+
+[Nissan]
+🚗 350z — Nissan 350Z
+🏎️ gta5rp_veh_gtr33 — Nissan Skyline GT-R R33
+🏎️ gtr50 — Nissan GT-R50
+🏎️ gtrh — Nissan GT-R H
+🏎️ gtz34be — Nissan Skyline GT-R R34
+🏎️ GODzHYCADER34 — Nissan Skyline GT-R R34 Hycade
+🚗 lbwk35 — Nissan 350Z LBWK
+🏎️ nismo20 — Nissan GT-R Nismo 2020
+🏎️ nissanr36 — Nissan GT-R R36
+🏎️ r33ptnc — Nissan Skyline GT-R R33
+🏎️ r35secret — Nissan GT-R R35 Secret
+🏎️ r355 — Nissan GT-R R35
+🚗 rmod240sx — Nissan 240SX
+🏎️ rmodgtr — Nissan GT-R
+🏎️ rmodskyline34 — Nissan Skyline GT-R R34
+🚗 s15 — Nissan Silvia S15
+🚗 silviagd — Nissan Silvia GD
+🚗 skyline — Nissan Skyline
+🏎️ ToraGTRWBMega — Nissan GT-R Widebody Mega
+🚐 vanzkrc — Nissan Vanz KRC
+
+[Others]
+🚗 204spetro — 204S Petro
+🚗 banana — Banana Car
+🚗 carsonswbc6 — Carson Widebody C6
+🚗 f1 — Formula 1 Car
+🚓 fbv60pole — FBV60 Pole
+🚗 fcxl — FCXL
+🚗 fmagnum — Firebird Magnum
+🚗 firebirdwz — Firebird
+🚗 fprotozwb — F Proto Widebody
+🚗 fortwo17 — Smart Fortwo 2017
+🚗 GODz61BUS — GODz 61 Bus
+🚗 GODzKSTERZOTACHA — GODz Kster Zotacha
+🚗 GODzRB26SUBI — GODz RB26 Subaru
+🚗 GODzRZRPROLFTD — GODz RZR Pro Lifted
+🚗 gstbird1 — GST Bird
+🚛 gsthoonitruck1 — GST Hooni Truck
+🚗 ikx3rebel22 — Rebel 2022
+🚗 kart — Go Kart
+🚗 loweyezv — Low Eye ZV
+🚗 owlbelair2 — Owl Bel Air
+🚗 rmodr50 — R50
+🚗 rr21shelbystreet — Shelby Street 2021
+🚗 rroctane — Octane
+🚛 rtruck — R Truck
+🚗 RYGBus — RYG Bus
+🚗 scubieblob — Subaru Blob
+🚗 SHEL — Shelby
+🚗 singer — Singer
+🚗 swl — SWL
+🚗 taycan — Porsche Taycan
+🚛 thewolftruck — Wolf Truck
+🚗 tieens — Tieens
+🚐 vanzwb06 — Vanz Widebody 06
+🚗 yoti — Yoti
+
+[Pagani]
+🚗 pagani_zonda_cinque — Pagani Zonda Cinque
+🚗 rmodpagani — Pagani
+🚗 TCZjc — Pagani Zonda JC
+
+[Planes]
+✈️ f22a — F-22 Raptor
+✈️ mh47g — MH-47G Chinook
+
+[Police]
+🚓 22g63 — Mercedes G63 AMG Police 2022
+🚓 22m5sal — BMW M5 Police 2022
+🚓 ACTRPavant — Audi Avant Police
+🚓 ACTRPavantum — Audi Avant Police
+🚓 DL_a45 — Mercedes A45 AMG Police
+🚓 DL_RS7 — Audi RS7 Police
+🚓 DL_rs6 — Audi RS6 Police
+🚓 nm_ctsv — Cadillac CTS-V Police
+🚓 nm_hell — Dodge Hellcat Police
+🚓 nm_z71 — Chevrolet Z71 Police
+🚓 pd_escalader — Cadillac Escalade Police
+🏍️ polbike — Police Bike
+🚓 polbmwm3 — BMW M3 Police
+🚓 polbmwm7 — BMW M7 Police
+🚓 polboat1 — Police Boat 1
+🚓 polboat2 — Police Boat 2
+🚓 polcharger18 — Dodge Charger Police 2018
+🚓 polcoach — Police Coach
+🚓 polcross — Police Cross
+✈️ polheli — Police Helicopter
+🏍️ polkawasaki — Kawasaki Police
+🚓 polmav — Police Maverick
+🚓 polmustang — Ford Mustang Police
+🚓 polsilverado19 — Chevrolet Silverado Police 2019
+🚓 RoyalCustom_R34Marked — Nissan Skyline GT-R R34 Police
+🚓 rmodgt63police — Mercedes GT63 AMG Police
+🚓 sw_sprinter — Mercedes Sprinter Police
+🚓 sw_subrb — Subaru Police
+🚓 trhawk — Police Trackhawk
+🚗 unmarkedjl — Unmarked Jeep
+🚓 zm_rocket900 — Police Rocket 900
+🚓 zm_s500 — Mercedes S500 Police
+
+[PoleStar]
+🚓 polestar1 — Polestar 1
+
+[Porsche]
+🚗 17mansorypnmr — Porsche Panamera Mansory 2017
+🏎️ 911gtrs — Porsche 911 GT3 RS
+🚗 911turbos — Porsche 911 Turbo S
+🚗 carrera19 — Porsche 911 Carrera 2019
+🚗 cayen19 — Porsche Cayenne 2019
+🚗 cayennemecqq — Porsche Cayenne
+🏎️ GODzDUKESGT2RSV2 — Porsche 911 GT2 RS
+🏎️ gt2rs — Porsche 911 GT2 RS
+🏎️ gt3demon — Porsche 911 GT3 Demon
+🏎️ gt3hycade — Porsche 911 GT3 Hycade
+🏎️ gt4hycade — Porsche 718 GT4 Hycade
+🏎️ ikx3gt3rs23 — Porsche 911 GT3 RS 2023
+🚗 ikx3hn65 — Porsche 911 1965
+🚗 manspana — Porsche Panamera Mansory
+🚗 panamturs21 — Porsche Panamera Turbo S 2021
+🏎️ por911gt3 — Porsche 911 GT3
+🚗 porche911speedhunter — Porsche 911 Speedhunter
+🚗 techart17 — Porsche Techart 2017
+🚗 taycanani — Porsche Taycan
+🚗 venuum911 — Porsche 911 Venuum
+
+[Ram]
+🚛 duallybshack — Ram Dually
+🚛 gcram1500 — Ram 1500
+🚛 GODz22LIGHTNINGWB — Ram Lightning Widebody 2022
+🚐 GODzRAMTRX6x6 — Ram TRX 6x6
+🚐 ramtrx6x6 — Ram TRX 6x6
+🚛 trx — Ram TRX
+
+[Range Rover]
+🚗 18Velar — Range Rover Velar 2018
+🚗 autobio — Range Rover Autobiography
+
+[Renault]
+🚗 74civrswb — Renault 5 Turbo Widebody
+
+[Rolls Royce]
+🚗 ab300 — Rolls Royce AB300
+🚗 dawn — Rolls Royce Dawn
+🚗 dawnonyx — Rolls Royce Dawn Onyx
+🚗 kln — Rolls Royce Kln
+🚗 rculi — Rolls Royce Cullinan
+🚐 Rolls6x6 — Rolls Royce 6x6
+🚗 rrphantom — Rolls Royce Phantom
+🚗 rrwraith — Rolls Royce Wraith
+🚗 wraith — Rolls Royce Wraith
+
+[Sheriff]
+🚓 17silvk9rb — Chevrolet Silverado Sheriff 2017
+✈️ eheli — Sheriff Helicopter
+🚓 gurkharb — Gurkha Sheriff
+🚓 policeboat — Sheriff Police Boat
+🚐 Prisonvan2rb — Prison Van
+🚓 speeddemonrb — Speed Demon Sheriff
+🚓 valor1rb — Valor 1 Sheriff
+🚓 valor3rb — Valor 3 Sheriff
+🚓 valor5rb — Valor 5 Sheriff
+🚓 valor6rb — Valor 6 Sheriff
+🚓 valor9rb — Valor 9 Sheriff
+🚓 valor10rb — Valor 10 Sheriff
+🚓 valor12rb — Valor 12 Sheriff
+🚓 valor13rb — Valor 13 Sheriff
+🚓 valor15rb — Valor 15 Sheriff
+🏍️ valorharley — Valor Harley Davidson
+
+[Subaru]
+🚗 hycadesti — Subaru Impreza Hycade
+🚗 subisti08 — Subaru Impreza STI 2008
+
+[Tesla]
+🚗 model — Tesla Model S
+🚗 modelx — Tesla Model X
+🚗 models — Tesla Model S
+🚓 teslapd — Tesla Police Department
+🚗 teslaroad — Tesla Roadster
+
+[Toyota]
+🚗 2019tundrac — Toyota Tundra 2019
+🚗 a80 — Toyota Supra A80
+🚗 a80vygasaleem — Toyota Supra A80
+🚗 a90sh — Toyota Supra A90
+🚗 amarok — Volkswagen Amarok
+🚗 crownbp — Toyota Crown
+🚗 gfuckedsupra — Toyota Supra
+🚗 GODzHYCADEMK4V2 — Toyota Supra MK4 Hycade
+🏎️ gt86trust — Toyota GT86 Trust
+🚗 mk4hycade — Toyota Supra MK4 Hycade
+🚗 mkivsupra — Toyota Supra MK4
+🚗 suprapandem — Toyota Supra Pandem
+
+[Varis]
+🚗 brz13varis — Subaru BRZ Varis 2013
+
+[Volvo]
+🚗 v60hr — Volvo V60
+
+[VW]
+🚗 golf1 — Volkswagen Golf MK1
+🚗 golf7 — Volkswagen Golf MK7
+🚗 golf75r — Volkswagen Golf R MK7.5
+🏎️ golf8gti — Volkswagen Golf GTI MK8
+🚗 golf91wideprzemo — Volkswagen Golf MK9 Widebody
+🚗 passat — Volkswagen Passat
+🚓 polo2018 — Volkswagen Polo 2018
+🚗 rmodmk7 — Volkswagen Golf MK7
+
+[W Motors]
+🏍️ wmfenyr — W Motors Fenyr SuperSport
+
+===============================================
+===============================================
